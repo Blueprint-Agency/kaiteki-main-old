@@ -20,11 +20,11 @@ Research, audit, and design docs for rebuilding [kaiteki.my](https://kaiteki.my)
 | 01 | [`01-legacy-site-audit.md`](./01-legacy-site-audit.md) | The **old** site: full page/URL inventory, redirects, conversion model, SEO debt, and a draft 301 migration map. |
 | 02 | [`02-seo-guidelines-2026.md`](./02-seo-guidelines-2026.md) | **Pure SEO/AEO best-practice reference** — technical, performance/CWV, schema, on-page, content, internal linking/anchor text, E-E-A-T, YMYL/medical (incl. Malaysia rules), AEO/GEO, local & multi-location, reputation, measurement. The standard everything else must meet. |
 
-### Phase 2 — Proposals & Design ⏳ (planned)
-| # | Doc | What it will cover |
+### Phase 2 — Proposals & Design 🔄 (03–04 ✅ done; 05–07 ⏳ planned)
+| # | Doc | What it covers |
 |---|-----|-----------|
-| 03 | `03-competitor-analysis.md` | Teardown of `cliniccleo.com` + aesthetic-industry benchmarks (design, structure, SEO, content, AEO presence) — what to beat and how. |
-| 04 | `04-information-architecture.md` | Proposed site structure, clean URL scheme, navigation, breadcrumb & **internal-linking/anchor-text plan**, sitemap, full **301 redirect map** from `docs/01`. |
+| 03 | [`03-competitor-analysis.md`](./03-competitor-analysis.md) ✅ | Teardown of `cliniccleo.com` + benchmarks (Premier, Nexus, Beverly Wilshire) + the Malaysian aesthetic SEO/AEO landscape; comparison matrix; prioritized opportunity gaps. |
+| 04 | [`04-information-architecture.md`](./04-information-architecture.md) ✅ | New clean URL taxonomy, nav/mega-menu, breadcrumbs, **internal-linking/anchor-text plan**, per-type sitemaps + robots (AI-crawler policy + www-bug fix), hreflang plan, and the **complete 73-row 301 redirect map**. |
 | 05 | `05-content-strategy.md` | Page-by-page content & messaging; **E-E-A-T pages** (doctors, credentials, licenses, awards, medical-reviewer); topic clusters; FAQ/AEO content; trust elements (social links, certifications); compliant medical copy. |
 | 06 | `06-uiux-design-system.md` | Design language, design system/tokens, components, page templates, responsive & accessibility, motion — aimed at beating competitors aesthetically. |
 | 07 | `07-technical-architecture.md` | Next.js architecture, **page templatization** (treatment / concern / location / doctor / blog templates; shared header & footer), data model (MDX/typed content), i18n-ready routing, **error handling & logging**, redirects/sitemaps/robots, performance, analytics & WhatsApp-conversion tracking, deployment. |

@@ -1,0 +1,826 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Get your FREE LED phototherapy session" [ref=e9] [cursor=pointer]:
+        - /url: https://premier-clinic.com/landing/free-premier-led-phototherapy-treatment-e-voucher/?source=home
+      - generic [ref=e11]:
+        - generic [ref=e12]: Welcome to Premier Clinic
+        - text: 
+        - link "BOOK NOW" [ref=e14] [cursor=pointer]:
+          - /url: https://premier-clinic.com/contact-us/
+      - generic [ref=e17]:
+        - link "Premier Clinic" [ref=e19] [cursor=pointer]:
+          - /url: https://premier-clinic.com
+        - link "" [ref=e20] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e21]: 
+        - text:  
+  - generic [ref=e28]:
+    - generic [ref=e32]:
+      - generic [ref=e35]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: PREMIUM MEDICAL AESTHETICS
+          - generic [ref=e45]:
+            - generic [ref=e46]: Your Beauty Goals,
+            - generic [ref=e47]: Elevated With Expertise
+          - paragraph [ref=e48]: Premier Clinic brings together doctor-led aesthetic care, advanced technologies and a comfortable treatment experience to help you look refined, confident and naturally at your best.
+          - link "BOOK NOW" [ref=e49] [cursor=pointer]:
+            - /url: https://premier-clinic.com/contact-us/
+        - generic [ref=e50] [cursor=pointer]: 
+        - generic [ref=e51] [cursor=pointer]: 
+      - text:  
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - heading "Experienced Team" [level=3] [ref=e72]
+        - paragraph [ref=e73]: Highly experienced medical professionals to provide a safe environment
+      - generic [ref=e74]:
+        - heading "Leading" [level=3] [ref=e75]
+        - paragraph [ref=e76]: Advanced skincare technology, with continuous research & development
+      - generic [ref=e77]:
+        - heading "Premium Service" [level=3] [ref=e78]:
+          - link "Premium Service" [ref=e79] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+        - paragraph [ref=e80]: Effective, result-focused with exceptional pre & post care
+    - generic [ref=e96]:
+      - heading "Voted Top 3 Best Aesthetic Clinic" [level=2] [ref=e97]
+      - paragraph [ref=e98]:
+        - text: Premier Clinic is among the finest aesthetic clinic in Malaysia. We specialise in corrective skin,
+        - link "body and hair treatments" [ref=e99] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-services-full/
+        - text: that can help you feel confident in your own skin at any age.
+      - link "Learn More" [ref=e101] [cursor=pointer]:
+        - /url: https://premier-clinic.com/about-us/
+    - generic [ref=e105]:
+      - generic [ref=e107]:
+        - heading "Experienced Team" [level=2] [ref=e108]
+        - paragraph [ref=e109]: Highly experienced medical professionals to provide a caring and safe environment
+      - generic [ref=e110]:
+        - img [ref=e112] [cursor=pointer]
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - link "Doctor Kee Yong Seng THE PROLIFIC FORCE" [ref=e116] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-kee-yong-seng/
+              - generic [ref=e117]:
+                - heading "Doctor Kee Yong Seng" [level=3] [ref=e118]
+                - heading "THE PROLIFIC FORCE" [level=4] [ref=e119]
+            - link "Read more >" [ref=e122] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-kee-yong-seng/
+          - generic [ref=e123]:
+            - link "Dr Rachel Chong Doctor Rachel Chong THE ELEGANT ARTIST" [ref=e124] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-rachel-chong/
+              - img "Dr Rachel Chong" [ref=e125]
+              - generic [ref=e126]:
+                - heading "Doctor Rachel Chong" [level=3] [ref=e127]
+                - heading "THE ELEGANT ARTIST" [level=4] [ref=e128]
+            - link "Read more >" [ref=e131] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-rachel-chong/
+          - generic [ref=e132]:
+            - link "Dr Nigel Ong Doctor Nigel Ong THE INGENIOUS MAVEN" [ref=e133] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-nigel-ong/
+              - img "Dr Nigel Ong" [ref=e134]
+              - generic [ref=e135]:
+                - heading "Doctor Nigel Ong" [level=3] [ref=e136]:
+                  - text: Doctor
+                  - text: Nigel Ong
+                - heading "THE INGENIOUS MAVEN" [level=4] [ref=e137]
+            - link "Read more >" [ref=e140] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-nigel-ong/
+          - generic [ref=e141]:
+            - link [ref=e142] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-chen-tai-ho/
+              - img [ref=e143]
+              - generic [ref=e144]:
+                - heading [level=3] [ref=e145]: Doctor Chen Tai Ho
+                - heading [level=4] [ref=e146]: TRANSCENDING AESTHETIC EXCELLENCE
+            - link [ref=e149] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-chen-tai-ho/
+              - text: Read more >
+          - generic [ref=e150]:
+            - link [ref=e151] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-foo-wing-jian/
+              - img [ref=e152]
+              - generic [ref=e153]:
+                - heading [level=3] [ref=e154]: Doctor Foo Wing Jian
+                - heading [level=4] [ref=e155]: THE EFFERVESCENT CHARM
+            - link [ref=e158] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-foo-wing-jian/
+              - text: Read more >
+          - generic [ref=e159]:
+            - link [ref=e160] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-shilpa-suresh/
+              - img [ref=e161]
+              - generic [ref=e162]:
+                - heading [level=3] [ref=e163]: Doctor Shilpa Suresh
+                - heading [level=4] [ref=e164]: THE FUTURE OF AESTHETIC BRILLIANCE
+            - link [ref=e167] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-shilpa-suresh/
+              - text: Read more >
+          - generic [ref=e168]:
+            - link [ref=e169] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-deeban-ramasamy/
+              - generic [ref=e170]:
+                - heading [level=3] [ref=e171]: Doctor Deeban Ramasamy
+                - heading [level=4] [ref=e172]: THE RENEWAL VIRTUOSO
+            - link [ref=e175] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/dr-deeban-ramasamy/
+              - text: Read more >
+          - generic [ref=e176]:
+            - link [ref=e177] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-tarina-sandara/
+              - img [ref=e178]
+              - generic [ref=e179]:
+                - heading [level=3] [ref=e180]: Doctor Tarina Sandara
+                - heading [level=4] [ref=e181]: THE INCIPIENT ARTIST
+            - link [ref=e184] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-tarina-sandara/
+              - text: Read more >
+          - generic [ref=e185]:
+            - link [ref=e186] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-mastura/
+              - img [ref=e187]
+              - generic [ref=e188]:
+                - heading [level=3] [ref=e189]: Doctor Mastura
+                - heading [level=4] [ref=e190]: THE FEMININE REJUVENATOR
+            - link [ref=e193] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-doctors/doctor-mastura/
+              - text: Read more >
+        - img [ref=e195] [cursor=pointer]
+    - generic [ref=e199]:
+      - generic [ref=e201]:
+        - heading "Why Choose Premier Clinic" [level=1] [ref=e202]:
+          - strong [ref=e203]: Why Choose Premier Clinic
+        - paragraph [ref=e204]:
+          - text: Premier Clinic is a leading Aesthetic provider in Malaysia with our innovative and
+          - link "effective procedures" [ref=e205] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: . Our services consist of top-to-toe
+          - link "aesthetic procedures" [ref=e206] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: to enhance your beauty. Due to the excellent service provided we were voted as Top 3 Best Aesthetic Clinic in Klang Valley.
+      - generic [ref=e207]:
+        - generic [ref=e209]: 9 Experienced & Professional Doctors
+        - generic [ref=e211]: 45,899 Satisfied Clients With 187,203 Successful Procedures Done
+        - generic [ref=e213]: 121,928 Successful Treatments Done
+        - generic [ref=e215]: 18 International / Local Awards & Recognition
+      - link "Read More" [ref=e219] [cursor=pointer]:
+        - /url: https://premier-clinic.com/landing/why-choose-us/
+    - generic [ref=e224]:
+      - generic [ref=e226]:
+        - heading "Our Awards & Recognition" [level=2] [ref=e227]:
+          - link "Our Awards & Recognition" [ref=e228] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-awards/
+        - paragraph [ref=e229]:
+          - link "Premier Clinic" [ref=e230] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: is a multiple award-winning company. Experience the latest
+          - link "aesthetic technology and techniques" [ref=e231] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: ", all tailored to your individual goals."
+      - generic [ref=e234]:
+        - link "Awards" [ref=e236] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e237]
+        - link "Awards" [ref=e239] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e240]
+        - link "Awards" [ref=e242] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e243]
+        - link "Awards" [ref=e245] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e246]
+        - link "Awards" [ref=e248] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e249]
+        - link "Awards" [ref=e251] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e252]
+        - link "Awards" [ref=e254] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e255]
+        - link "Awards" [ref=e257] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e258]
+        - link "Awards" [ref=e260] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-awards/
+          - img "Awards" [ref=e261]
+      - link "Read More About Our Awards" [ref=e265] [cursor=pointer]:
+        - /url: https://premier-clinic.com/about-us/our-awards/
+    - generic [ref=e269]:
+      - generic [ref=e271]:
+        - heading "Recover, Rejuvenate & Revive" [level=2] [ref=e272]
+        - paragraph [ref=e273]:
+          - text: Inspired by the natural human instinct of wanting to feel and look the best.
+          - link "Premier Clinic" [ref=e274] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: is passionate about helping you achieve true change.
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - generic [ref=e280]:
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - generic [ref=e285]:
+                  - img "Face" [ref=e287]
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: Face
+                    - text: Because confidence starts from a flawless, radiant face.
+                - generic [ref=e291]:
+                  - paragraph [ref=e292]: From laser to injectables, we offer premium medical-grade solutions to bring out your inner beauty. Discover how we can make your skin flawless, glowing, and youthful!
+                  - link "Learn More" [ref=e294] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/#category-face
+              - list [ref=e296]:
+                - listitem [ref=e297]:
+                  - link "Botulinum Toxin (BOTOX)" [ref=e298] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/botulinum-toxin/
+                - listitem [ref=e299]:
+                  - link "Dermal Filler" [ref=e300] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/dermal-filler/
+                - listitem [ref=e301]:
+                  - link "Ultherapy" [ref=e302] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/ultherapy-focused-ultrasound/
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - img [ref=e309]
+                  - generic [ref=e311]:
+                    - generic [ref=e312]: Hair
+                    - text: Regain the glorious crown
+                - generic [ref=e313]:
+                  - paragraph [ref=e314]: From acute to severe hair loss, we have the technologies and procedures to help restore it. Done by expert doctors who have won local & international awards on hair restoration.
+                  - link [ref=e316] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/#category-hair
+                    - text: Learn More
+              - list [ref=e318]:
+                - listitem [ref=e319]:
+                  - link [ref=e320] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/candela-gentle-yag-laser/
+                    - text: Hair removal Laser
+                - listitem [ref=e321]:
+                  - link [ref=e322] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/platelet-rich-plasma-prp/
+                    - text: Hair PRP
+                - listitem [ref=e323]:
+                  - link [ref=e324] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/stem-cell-hair-treatment/
+                    - text: Stem Cell Hair Treatment
+            - generic [ref=e327]:
+              - generic [ref=e328]:
+                - generic [ref=e329]:
+                  - img [ref=e331]
+                  - generic [ref=e333]:
+                    - generic [ref=e334]: Body
+                    - text: Reimagine the new you
+                - generic [ref=e335]:
+                  - paragraph [ref=e336]: Embark on body transformation journey with us. Enlarge or slim down your body is possible with our many treatments. Click to find out which one suits you best.
+                  - link [ref=e338] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/#category-body
+                    - text: Learn More
+              - list [ref=e340]:
+                - listitem [ref=e341]:
+                  - link [ref=e342] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/zeltiq-coolsculpting-cryolipolysis/
+                    - text: Zeltiq CoolSculpting Cryolipolysis
+                - listitem [ref=e343]:
+                  - link [ref=e344] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/fms/
+                    - text: Functional Muscle System (FMS)
+                - listitem [ref=e345]:
+                  - link [ref=e346] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/le-shape/
+                    - text: Le Shape
+                - listitem [ref=e347]:
+                  - link [ref=e348] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/oral-weight-loss-medicines/
+                    - text: Oral Weight Loss Medication
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - img [ref=e355]
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: Men & Women
+                    - text: Reignite the fire in bedroom
+                - generic [ref=e359]:
+                  - paragraph [ref=e360]: Check out our "His & Hers" personalized treatments to increase sexual performances. Safe, effective and totally confidential.
+                  - link [ref=e362] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/#category-female
+                    - text: Learn More
+              - list [ref=e364]:
+                - listitem [ref=e365]:
+                  - link [ref=e366] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/p-shot-o-shot-for-sexual-rejunation-2/
+                    - text: P-Shot
+                - listitem [ref=e367]:
+                  - link [ref=e368] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/p-shot-o-shot-for-sexual-rejunation-2/
+                    - text: O-Shot
+                - listitem [ref=e369]:
+                  - link [ref=e370] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/genital-skin-whitening-for-men/
+                    - text: Genital Whitening Laser
+                - listitem [ref=e371]:
+                  - link [ref=e372] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/caverject-injection-for-erectile-dysfunction/
+                    - text: Caverject Injection
+          - button "Next" [ref=e373] [cursor=pointer]
+        - generic [ref=e374]:
+          - generic [ref=e377]:
+            - heading "Our Services" [level=3] [ref=e378]:
+              - link "Our Services" [ref=e379] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+            - paragraph [ref=e380]: With years of training and experience, our 9 doctors are highly adept and well-qualified to attend to your aesthetic needs.
+          - generic [ref=e381]:
+            - generic [ref=e383]:
+              - img "Face" [ref=e385]
+              - generic [ref=e386]: Face
+            - generic [ref=e388]:
+              - img "Hair" [ref=e390]
+              - generic [ref=e391]: Hair
+            - generic [ref=e393]:
+              - img "Body" [ref=e395]
+              - generic [ref=e396]: Body
+            - generic [ref=e398]:
+              - img "Men & Women" [ref=e400]
+              - generic [ref=e401]: Men & Women
+    - generic [ref=e405]:
+      - generic [ref=e407]:
+        - heading "Signature Treatment" [level=2] [ref=e408]:
+          - link "Signature Treatment" [ref=e409] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+        - paragraph [ref=e410]:
+          - text: Inspired by the natural human instinct of wanting to feel and look the best.
+          - link "Premier Clinic" [ref=e411] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: is passionate about helping you achieve true change.
+      - generic [ref=e417]:
+        - heading "Face Lift Treatment" [level=3] [ref=e418]
+        - heading "ULTHERAPY TREATMENT" [level=4] [ref=e419]
+        - paragraph [ref=e420]: Look 10 years younger without any surgery, needles or stitches!
+        - link "Learn More >>" [ref=e422] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-services/ultherapy-focused-ultrasound/
+    - generic [ref=e426]:
+      - generic [ref=e428]:
+        - heading "What customer love about us" [level=2] [ref=e429]
+        - paragraph [ref=e430]: Real customers, real treatments and real results!
+      - generic [ref=e433]:
+        - img [ref=e435] [cursor=pointer]
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - heading "\"No more CELLULITE on my stomach!\"" [level=3] [ref=e440]
+              - paragraph [ref=e441]: No more cellulite on my stomach! I have done the procedure 6 months ago after giving birth to my son. The treatment really flattens out my lower part of my abdomen and reduce the cellulite appearance which really hard to get rid off.
+            - generic [ref=e442]: "- Amber Lee, 43"
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - heading "\"赘肉消失，找回想要的腰围。\"" [level=3] [ref=e445]
+              - paragraph [ref=e446]: DrNigel耐心介绍让我尝试冷冻减脂。轻轻松松的瞄准我想去掉的赘肉拜拜小腹找回我的小蛮腰。
+            - generic [ref=e447]: "- 小侨, 32"
+          - generic [ref=e448]:
+            - generic [ref=e449]:
+              - heading "\"I've lost 5 INCHES in just 1 1/2 month\"" [level=3] [ref=e450]
+              - paragraph [ref=e451]: I have lost 5 inches so far in just 1 1/2 month. I went for the Clatuu after it was recommended by a friend. He has lost some incredible weight and I am on the way to lose it too. Overall very satisfied.
+            - generic [ref=e452]: "- Damien, 35"
+          - generic [ref=e453]:
+            - generic [ref=e454]:
+              - heading [level=3] [ref=e455]: "\"My skin is smoother, tighter and glowing!\""
+              - paragraph [ref=e456]: I had to wait a bit in the morning because of the queue. But the doctor was very accommodating & professional. My skin texture now has become smoother, tighter and glowing. I love my result!
+            - generic [ref=e457]: "- William, 34"
+          - generic [ref=e458]:
+            - generic [ref=e459]:
+              - heading [level=3] [ref=e460]: "\"信心满满的自拍，不再有双下巴\""
+              - paragraph [ref=e461]: 我很爱自拍，无论怎么减，双下巴都在。我太喜欢现在的自己，我终于可以摆脱人们说双下巴是福气。谢谢MK 的Dr Foo。
+            - generic [ref=e462]: "- 吴小姐, 28"
+          - generic [ref=e463]:
+            - generic [ref=e464]:
+              - heading [level=3] [ref=e465]: “Overall, nice ambience and place.”
+              - paragraph [ref=e466]: Very helpful both assistant and doctor. Dr Foo is very good. Had Mesolipo treatment today. Can't wait to see the final result in two weeks time.They accommodate your needs and desire and they know what to do. Definitely will come again for other treatments.
+            - generic [ref=e467]: "- Mohd Hazim, 28"
+          - generic [ref=e468]:
+            - generic [ref=e469]:
+              - heading [level=3] [ref=e470]: "\"我又可以穿起超短裤了\""
+              - paragraph [ref=e471]: 我大腿上的橙皮不见了，大腿内侧也可以更紧致，走起路来更自信了。
+            - generic [ref=e472]: "- 林雯雯, 30"
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - heading [level=3] [ref=e475]: "\"Warna kulit muka saya semakin sekata.\""
+              - paragraph [ref=e476]: Try pico laser selepas consultation dgn Dr Diyana, hasil selepas rawatan pertama sangatlah memuaskan. Masalah liang roma besar terutamanya dibahagian hidup semakin ok. Harga pon affordable, rawatan dan servis juga sangan best. Yg paling penting warna kulit muka semakin sekata selepas toning laser.
+            - generic [ref=e477]: "- Hamim, 34"
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - heading [level=3] [ref=e480]: "\"体重稳定，摆脱美食的诱惑\""
+              - paragraph [ref=e481]: 我终于可以控制自己对美食的心魔保持着良好的饮食习惯。体重也稳定身心健康。
+            - generic [ref=e482]: "- 陈晓岚, 26"
+          - generic [ref=e483]:
+            - generic [ref=e484]:
+              - heading [level=3] [ref=e485]: “My skin look brighter and feel smoother”
+              - paragraph [ref=e486]: Great service, Very professional doctor and staff. I have done my laser hair removal with Dr Jaswine. The whole process are very comfortable. They are friendly too!! Knowledgeable and price is affordable too ~ Will definitely suggest this clinic to you all 🙂
+            - generic [ref=e487]: "- Reachell Alphonsus, 32"
+          - generic [ref=e488]:
+            - generic [ref=e489]:
+              - heading [level=3] [ref=e490]: “The result looks natural!"
+              - paragraph [ref=e491]: I tried many procedures before, but none of them really totally remove my double chin, like Ultherapy. Ultherapy tightened my skin, so beside the double chin removal, it also helps to lift my face.
+            - generic [ref=e492]: "- Jani, 42"
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - heading [level=3] [ref=e495]: "\"50岁的年龄30岁的脸蛋不是梦\""
+              - paragraph [ref=e496]: 效果立刻见效，那感觉太棒了，脸部明显的提升，苹果肌也棒。
+            - generic [ref=e497]: "- 周女士, 50"
+          - generic [ref=e498]:
+            - generic [ref=e499]:
+              - heading [level=3] [ref=e500]: "\"我也可以有巴掌脸\""
+              - paragraph [ref=e501]: 从小就有个可爱的圆脸，长大了就不觉得可爱了经过疗程终于有个轮廓分明的巴掌脸。
+            - generic [ref=e502]: "- 蔡小姐, 33"
+          - generic [ref=e503]:
+            - generic [ref=e504]:
+              - heading [level=3] [ref=e505]: “I can wear my bikini confidently now!"
+              - paragraph [ref=e506]: Totally worth it. Undergo full body hair removal and looking absolutely outstanding. After 4 sessions of hair laser removal, I don’t need to shave anymore.
+            - generic [ref=e507]: "- Yumi N, 36"
+          - generic [ref=e508]:
+            - generic [ref=e509]:
+              - heading [level=3] [ref=e510]: “I have managed to lose 16kg & still losing!”
+              - paragraph [ref=e511]: I am a patient of Premier Clinic Mont Kiara and attended by Dr Foo. I have had many problems with weight management despite trying multiple diet programs and exercises. After going through their weight management program, I have managed to lose 16kg (and still losing!) and keep it off. Very friendly staff, homey ambience and motivating doctor. Highly recommended!.
+            - generic [ref=e512]: "- Carol Ling, 36"
+          - generic [ref=e513]:
+            - generic [ref=e514]:
+              - heading [level=3] [ref=e515]: "\"No more unwanted fat on my stomach”"
+              - paragraph [ref=e516]: I am very happy with the outcome. As I get older I have found it harder to reduce my problem areas, especially after giving birth to my children. I did a lot of reading before I decided to try Coolsculpting in Premier Clinic. I try as much as I can to avoid any surgical procedure due to the long downtime. This treatment is very simple yet effective.
+            - generic [ref=e517]: "- Haslinda, 34"
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - heading [level=3] [ref=e520]: "\"My skin healed within a few days.”"
+              - paragraph [ref=e521]: I had a skin fungal infection on my face and neck which was itching and stinging by the time I went to Premier Clinic. I've been to a normal GP before this but the medications that were prescribed did not help. I am glad I've gone to Premier Clinic to get the professional treatment that I needed. The team in Premier Clinic were all very professional and pleasant. Thank you and I will definitely be back for other treatments and such.
+            - generic [ref=e522]: "- Stephanie Ooi, 32"
+          - generic [ref=e523]:
+            - generic [ref=e524]:
+              - heading [level=3] [ref=e525]: "\"Saya berjaya menurunkan berat badan dengan jayanya.\""
+              - paragraph [ref=e526]: Sangat berpuas hati dengan treatment Premier Clinic TTDI. Layanan yang sangat baik dan professional. Dr Azizi jugak sangat professional dan terima kasih kerana berjaya membantu saya menurunkan berat badan.
+            - generic [ref=e527]: "- Aki, 35"
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - heading [level=3] [ref=e530]: "\"我的脸部更有立体感\""
+              - paragraph [ref=e531]: 效果明显，持久。太喜欢Dr Kee 帮我看起来更青春有活力。
+            - generic [ref=e532]: "- 罗微欣, 35"
+          - generic [ref=e533]:
+            - generic [ref=e534]:
+              - heading [level=3] [ref=e535]: "\"My lips will look plump and yet it looks so natural”"
+              - paragraph [ref=e536]: I always wanted to have plump lips but too scared to do it as it might not give the natural look that I want. After consultation with Dr Nigel. I just give it a try. The result was amazing. Thanks Dr Nigel definitely will recommend my friend to look for you 😊
+            - generic [ref=e537]: "- Lily Albert, 33"
+          - generic [ref=e538]:
+            - generic [ref=e539]:
+              - heading [level=3] [ref=e540]: "\"Notice great changes with an only one-time treatment.”"
+              - paragraph [ref=e541]: Satisfied with the service and treatment here with Dr Michelle Lai. Consulted and did vaginal tightening laser last month and notice great changes with only one-time treatment. Couldn't express my happiness with wordings. I wiill definitely come back for treatment again.
+            - generic [ref=e542]: "- Sephenie Kang, 40"
+          - generic [ref=e543]:
+            - generic [ref=e544]:
+              - heading [level=3] [ref=e545]: "\"Skin tags are gone”"
+              - paragraph [ref=e546]: The Premier Clinic staff are wonderful and able to allay my apprehension as it is my first laser treatment for removal of skin tags and wart removal on my neck. Dr Vanessa is very careful and gentle throughout the treatment. The whole experience is very good. I am now considering doing other treatments with them.
+            - generic [ref=e547]: "- Suzanne Huang, 35"
+          - generic [ref=e548]:
+            - generic [ref=e549]:
+              - heading [level=3] [ref=e550]: "\"Kulit wajah saya semakin pulih dan berseri.\""
+              - paragraph [ref=e551]: Dr Kee sangat sangat membantu dalam mengurang dan merawat masalah jerawat di muka. Having breakout selepas mencuba set rawatan muka baru, dan jerawat mula tumbuh dengan sangat banyak. Selepas beberapa treatment dgn Dr Kee, its getting better. Masih dalam rawatan, tapi hasil sangat berbaloi.
+            - generic [ref=e552]: "- Zafira, 26"
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - heading [level=3] [ref=e555]: "\"No more bald patches on my scalp”"
+              - paragraph [ref=e556]: I am 100% impressed with the changes. Did FUE transplant with Dr Foo. The treatment really improved my hair texture and trigger healthy hair follicles growth.
+            - generic [ref=e557]: "- Lilian, 42"
+          - generic [ref=e558]:
+            - generic [ref=e559]:
+              - heading [level=3] [ref=e560]: "\"It works well! No more double chin”"
+              - paragraph [ref=e561]: I always upset with my double chin. I did Clatuu for my double chin here. It works well! Thank you so much, Dr Nigel and team, who are so caring, polite and professional!
+            - generic [ref=e562]: "- Justine Ong, 38"
+          - generic [ref=e563]:
+            - generic [ref=e564]:
+              - heading [level=3] [ref=e565]: "\"It can clearly see each time that it gets better.”"
+              - paragraph [ref=e566]: I have skin acne with folliculitis with my chin part. And I have done 4 times session with some injection. Doctor and nurses are so wonderful and have professionalism. Its good place for the patient who has an acne problem.
+            - generic [ref=e567]: "- 이장환, 29"
+        - img [ref=e569] [cursor=pointer]
+    - generic [ref=e574]:
+      - generic [ref=e579]:
+        - generic [ref=e580]:
+          - text: Feel free to drop us any questions about
+          - link "aesthetic procedures" [ref=e581] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: or skin concerns.
+        - generic [ref=e583]:
+          - generic [ref=e584]:
+            - status
+            - list
+          - form "Contact form" [ref=e585]:
+            - paragraph [ref=e587]:
+              - textbox "Name" [ref=e589]
+            - paragraph [ref=e591]:
+              - textbox "Phone Number" [ref=e593]
+            - paragraph [ref=e595]:
+              - textbox "Email" [ref=e597]
+            - paragraph [ref=e599]:
+              - textbox "Message" [ref=e601]
+            - paragraph [ref=e603]:
+              - button "Submit" [ref=e604] [cursor=pointer]
+      - generic [ref=e610]:
+        - generic [ref=e611]:
+          - heading "BOOK YOUR TREATMENT WITH US" [level=2] [ref=e612]
+          - paragraph [ref=e613]:
+            - text: Call us now at
+            - link "+6012 – 662 5552" [ref=e614] [cursor=pointer]:
+              - /url: tel:+60126625552
+          - paragraph [ref=e615]:
+            - text: (
+            - link "Bangsar" [ref=e616] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-clinics/bangsar/
+            - text: /
+            - link "TTDI" [ref=e617] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-clinics/taman-tun-dr-ismail/
+            - text: /
+            - link "Puchong" [ref=e618] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-clinics/puchong/
+            - text: /
+            - link "KL City" [ref=e619] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-clinics/kl-city/
+            - text: /
+            - link "Mont Kiara" [ref=e620] [cursor=pointer]:
+              - /url: https://premier-clinic.com/our-clinics/mont-kiara/
+            - text: branch).
+          - paragraph [ref=e621]: Start your journey with us! We are contactable by email/phone/WhatsApp 24 hours a day, 365 days a year. Our friendly customer service executives can answer your questions, concerns or set up appointment with our expert doctors.
+          - paragraph [ref=e622]: There are no obligations to sign up.
+        - generic [ref=e623]:
+          - generic [ref=e624]:
+            - generic [ref=e625]: Follow Us On
+            - list [ref=e627]:
+              - listitem [ref=e628]:
+                - link "Facebook" [ref=e629] [cursor=pointer]:
+                  - /url: https://www.facebook.com/PremierClinicKL
+                  - img "Facebook" [ref=e630]
+              - listitem [ref=e631]:
+                - link "Instagram" [ref=e632] [cursor=pointer]:
+                  - /url: https://www.instagram.com/premierclinickl/
+                  - img "Instagram" [ref=e633]
+              - listitem [ref=e634]:
+                - link "YouTube" [ref=e635] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCLNFvHLtZFBqHCNpAZ-nPqg
+                  - img "YouTube" [ref=e636]
+              - listitem [ref=e637]:
+                - link "Tiktok" [ref=e638] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@premierclinickl
+                  - img "Tiktok" [ref=e639]
+          - img "Dr Kee Yong Seng" [ref=e641]
+    - generic [ref=e645]:
+      - generic [ref=e647]:
+        - heading "Beauty Tips" [level=2] [ref=e648]
+        - paragraph [ref=e649]:
+          - text: Experience the latest
+          - link "aesthetic technology" [ref=e650] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: and techniques,
+          - text: all tailored to your individual goals.
+      - generic [ref=e651]:
+        - generic [ref=e654]:
+          - generic [ref=e655]: April 28, 2026
+          - heading "What Causes Saggy Skin and How to Treat It Effectively" [level=3] [ref=e656]:
+            - link "What Causes Saggy Skin and How to Treat It Effectively" [ref=e657] [cursor=pointer]:
+              - /url: https://premier-clinic.com/blog/saggy-skin-causes-treatment/
+          - paragraph [ref=e658]: "An informational guide by the doctors of Premier Clinic, Malaysia Key Takeaways: Saggy skin is caused by multiple factors, including ageing, collagen loss, sun damage, […]"
+          - link "Learn More" [ref=e660] [cursor=pointer]:
+            - /url: https://premier-clinic.com/blog/saggy-skin-causes-treatment/
+        - generic [ref=e663]:
+          - generic [ref=e664]: April 28, 2026
+          - heading "What Causes Loose Skin and How Treatments Can Help Restore Firmness" [level=3] [ref=e665]:
+            - link "What Causes Loose Skin and How Treatments Can Help Restore Firmness" [ref=e666] [cursor=pointer]:
+              - /url: https://premier-clinic.com/blog/sagging-loose-skin-causes-treatment/
+          - paragraph [ref=e667]: "Key Takeaways: Loose skin is mainly caused by collagen and elastin loss, ageing, sun exposure, and weight fluctuations. Many patients ask, “Can sagging skin be reversed?”, […]"
+          - link "Learn More" [ref=e669] [cursor=pointer]:
+            - /url: https://premier-clinic.com/blog/sagging-loose-skin-causes-treatment/
+        - generic [ref=e672]:
+          - generic [ref=e673]: April 28, 2026
+          - heading "What Causes Hair Loss? Understanding the Root of the Problem" [level=3] [ref=e674]:
+            - link "What Causes Hair Loss? Understanding the Root of the Problem" [ref=e675] [cursor=pointer]:
+              - /url: https://premier-clinic.com/blog/hair-loss-causes-thinning/
+          - paragraph [ref=e676]: "Key Takeaways: Multiple factors, including genetics, hormones, stress, and nutritional deficiencies, usually cause hair loss. Understanding hair loss causes helps identify why hair falls and supports […]"
+          - link "Learn More" [ref=e678] [cursor=pointer]:
+            - /url: https://premier-clinic.com/blog/hair-loss-causes-thinning/
+  - link "Whatsapp" [ref=e679] [cursor=pointer]:
+    - /url: https://wa.me/60126625552?text=Hi,%20I%20was%20just%20browsing%20your%20website%20and%20I'm%20interested%20to%20learn%20more%20about%20your%20treatments.
+    - img "Whatsapp" [ref=e680]
+  - contentinfo [ref=e681]:
+    - generic [ref=e683]:
+      - complementary [ref=e685]:
+        - generic [ref=e687]:
+          - heading "About Us" [level=3] [ref=e688]:
+            - text: About Us
+            - link:
+              - /url: javascript:void(0)
+          - generic [ref=e689]:
+            - paragraph [ref=e690]:
+              - text: One of Malaysia’s leading aesthetic clinics, Premier Clinic believes that all individuals are beautiful and aims to bring your inner beauty to the surface. We strive to provide advanced care in the field of
+              - link "aesthetic medicine" [ref=e691] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+              - text: ", and to boost both the confidence and outlook of all our patients. Whether you need a simple service or a long,"
+              - link "complicated treatment" [ref=e692] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+              - text: ", our team of trained professionals will ensure you receive our"
+              - link "aesthetic care" [ref=e693] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+              - text: with our array of available services.
+            - paragraph [ref=e694]:
+              - text: With branches in
+              - link "Bangsar Baru" [ref=e695] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/bangsar/
+              - text: ","
+              - link "Taman Tun Dr Ismail" [ref=e696] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/taman-tun-dr-ismail/
+              - text: ","
+              - link "Mont Kiara" [ref=e697] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/mont-kiara/
+              - text: and
+              - link "Puchong" [ref=e698] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/puchong/
+              - text: ", as well as in"
+              - link "KL City" [ref=e699] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/kl-city/
+              - text: ", we are strategically located to serve you."
+      - complementary [ref=e701]:
+        - generic [ref=e702]:
+          - generic [ref=e703]:
+            - heading "Popular Treatments" [level=3] [ref=e704]:
+              - text: Popular Treatments
+              - link:
+                - /url: javascript:void(0)
+            - generic [ref=e705]:
+              - list [ref=e706]:
+                - listitem [ref=e707]:
+                  - link "Pico Laser" [ref=e708] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/pico-laser/
+                - listitem [ref=e709]:
+                  - link "Ultherapy" [ref=e710] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/ultherapy-focused-ultrasound/
+                - listitem [ref=e711]:
+                  - link "Clatuu Fat Freezing" [ref=e712] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/clatuu-fat-freezing/
+                - listitem [ref=e713]:
+                  - link "CoolSculpting Fat Freezing" [ref=e714] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/zeltiq-coolsculpting-cryolipolysis/
+                - listitem [ref=e715]:
+                  - link "Profhilo" [ref=e716] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/profhilo/
+                - listitem [ref=e717]:
+                  - link "ONDA" [ref=e718] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/onda-coolwaves/
+              - list [ref=e719]:
+                - listitem [ref=e720]:
+                  - link "Rejuran Healer" [ref=e721] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/rejuran-healer-treatment/
+                - listitem [ref=e722]:
+                  - link "Radiesse Filler" [ref=e723] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/radiesse-filler-injection/
+                - listitem [ref=e724]:
+                  - link "Chemical Peel" [ref=e725] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/skin-peel/
+                - listitem [ref=e726]:
+                  - link "Mesotherapy" [ref=e727] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/mesotherapy/
+                - listitem [ref=e728]:
+                  - link "Fractional CO2 Laser" [ref=e729] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/fractional-co2-laser/
+                - listitem [ref=e730]:
+                  - link "Platelet Rich Plasma (PRP)" [ref=e731] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/platelet-rich-plasma-prp/
+          - img "Letter of Credentialing and Privileging Aesthetic Medical Practice" [ref=e732]
+      - generic [ref=e733]:
+        - complementary [ref=e734]:
+          - list [ref=e736]:
+            - listitem [ref=e737]:
+              - link "All Treatments" [ref=e738] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services/
+            - listitem [ref=e739]:
+              - link "Skin & Body Problems" [ref=e740] [cursor=pointer]:
+                - /url: https://premier-clinic.com/skin-and-body-problems/
+            - listitem [ref=e741]:
+              - link "Packages" [ref=e742] [cursor=pointer]:
+                - /url: https://premier-clinic.com/packages/
+            - listitem [ref=e743]:
+              - link "About Us" [ref=e744] [cursor=pointer]:
+                - /url: https://premier-clinic.com/about-us/
+            - listitem [ref=e745]:
+              - link "Our Awards" [ref=e746] [cursor=pointer]:
+                - /url: https://premier-clinic.com/about-us/our-awards/
+            - listitem [ref=e747]:
+              - link "Our Doctors" [ref=e748] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-doctors/
+            - listitem [ref=e749]:
+              - link "Our Clinics" [ref=e750] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/
+            - listitem [ref=e751]:
+              - link "FAQ" [ref=e752] [cursor=pointer]:
+                - /url: https://premier-clinic.com/faq/
+            - listitem [ref=e753]:
+              - link "Blog" [ref=e754] [cursor=pointer]:
+                - /url: https://premier-clinic.com/blog/
+            - listitem [ref=e755]:
+              - link "Our Pricing" [ref=e756] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-pricing/
+        - complementary [ref=e757]:
+          - generic [ref=e759]:
+            - heading "Connect With Us" [level=3] [ref=e760]
+            - list [ref=e762]:
+              - listitem [ref=e763]:
+                - link [ref=e764] [cursor=pointer]:
+                  - /url: https://www.facebook.com/premierclinicmy/
+                  - img [ref=e765]
+              - listitem [ref=e766]:
+                - link [ref=e767] [cursor=pointer]:
+                  - /url: https://www.instagram.com/premierclinic_my/
+                  - img [ref=e768]
+              - listitem [ref=e769]:
+                - link [ref=e770] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@premierclinickl
+                  - img [ref=e771]
+              - listitem [ref=e772]:
+                - link [ref=e773] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Premierclinic_KL
+                  - img [ref=e774]
+      - generic [ref=e775]:
+        - complementary [ref=e776]:
+          - generic [ref=e778]:
+            - heading "Contact Us" [level=3] [ref=e779]:
+              - text: Contact Us
+              - link:
+                - /url: javascript:void(0)
+            - generic [ref=e780]:
+              - paragraph [ref=e781]: (Contactable 24 hours, 365 days)
+              - paragraph [ref=e782]:
+                - text: Call / WhatsApp / SMS Call us now!
+                - link "+6012 - 662 5552" [ref=e783] [cursor=pointer]:
+                  - /url: tel:+60126625552
+              - paragraph [ref=e784]:
+                - text: Email Us
+                - link "contactus@premier-clinic.com" [ref=e785] [cursor=pointer]:
+                  - /url: mailto:contactus@premier-clinic.com
+              - paragraph [ref=e786]: Premier Clinic is owned by Alunan Majujaya Sdn Bhd (1056972-X)
+              - paragraph [ref=e787]:
+                - text: "We Accept:"
+                - img "Payment Method" [ref=e788]
+              - paragraph [ref=e789]:
+                - link "Visit our BM website" [ref=e790] [cursor=pointer]:
+                  - /url: https://premier-clinic.com/bm/
+        - complementary [ref=e791]
+    - generic [ref=e794]:
+      - link "" [ref=e795] [cursor=pointer]:
+        - /url: ""
+        - generic [ref=e796]: 
+      - generic [ref=e797]:
+        - list [ref=e798]:
+          - listitem [ref=e799]:
+            - link "Terms & Conditions" [ref=e800] [cursor=pointer]:
+              - /url: https://premier-clinic.com/terms-conditions/
+          - listitem [ref=e801]:
+            - link "Privacy Policy" [ref=e802] [cursor=pointer]:
+              - /url: https://premier-clinic.com/privacy-policy/
+        - paragraph [ref=e803]:
+          - text: Copyright ©
+          - link "PREMIER CLINIC" [ref=e804] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: . All rights reserved. KKLIU 2632 / EXP 31.12.2026
+      - list
+  - generic [ref=e805]:
+    - link "" [ref=e807] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e808]: 
+    - generic [ref=e810]:
+      - text: 
+      - link "" [ref=e811] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e812]: 
+    - navigation [ref=e814]:
+      - list [ref=e815]:
+        - listitem [ref=e816]:
+          - link "Home" [ref=e817] [cursor=pointer]:
+            - /url: https://premier-clinic.com/ms/
+        - listitem [ref=e818]:
+          - link "About Us" [ref=e819] [cursor=pointer]:
+            - /url: https://premier-clinic.com/about-us/
+          - generic [ref=e820] [cursor=pointer]: +
+        - listitem [ref=e821]:
+          - link "Our Clinics" [ref=e822] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-clinics/
+        - listitem [ref=e823]:
+          - link "Treatments" [ref=e824] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services/
+        - listitem [ref=e825]:
+          - link "Testimonials" [ref=e826] [cursor=pointer]:
+            - /url: https://premier-clinic.com/testimonials/
+        - listitem [ref=e827]:
+          - link "Skin & Body Problems" [ref=e828] [cursor=pointer]:
+            - /url: https://premier-clinic.com/skin-and-body-problems/
+        - listitem [ref=e829]:
+          - link "Blog" [ref=e830] [cursor=pointer]:
+            - /url: https://premier-clinic.com/blog/
+        - listitem [ref=e831]:
+          - link "Offers" [ref=e832] [cursor=pointer]:
+            - /url: https://premier-clinic.com/packages/
+        - listitem [ref=e833]:
+          - link "Shop" [ref=e834] [cursor=pointer]:
+            - /url: https://premier-clinic.com/shop/
+        - listitem [ref=e835]:
+          - link "BOOK NOW" [ref=e836] [cursor=pointer]:
+            - /url: https://premier-clinic.com/contact-us/
+    - list

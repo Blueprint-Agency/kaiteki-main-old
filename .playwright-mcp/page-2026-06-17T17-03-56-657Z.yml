@@ -1,0 +1,441 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Get your FREE LED phototherapy session" [ref=e9] [cursor=pointer]:
+          - /url: https://premier-clinic.com/landing/free-premier-led-phototherapy-treatment-e-voucher/?source=home
+        - generic [ref=e11]:
+          - generic [ref=e12]: Welcome to Premier Clinic
+          - text: 
+          - link "BOOK NOW" [ref=e14] [cursor=pointer]:
+            - /url: https://premier-clinic.com/contact-us/
+        - generic [ref=e17]:
+          - link "Premier Clinic" [ref=e19] [cursor=pointer]:
+            - /url: https://premier-clinic.com
+          - link "" [ref=e20] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e21]: 
+          - text:  
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: https://premier-clinic.com
+        - text: ">"
+      - generic [ref=e30]:
+        - link "Treatments" [ref=e31] [cursor=pointer]:
+          - /url: https://premier-clinic.com/our-services/
+        - text: ">"
+      - link "Rejuran Healer" [ref=e33] [cursor=pointer]:
+        - /url: https://premier-clinic.com/our-services/rejuran-healer-treatment/
+  - generic [ref=e38]:
+    - heading "Rejuran Healer" [level=1] [ref=e41]
+    - generic [ref=e45]:
+      - list [ref=e46]:
+        - listitem [ref=e47]:
+          - link "What is Rejuran Healer" [ref=e48] [cursor=pointer]:
+            - /url: "#section1"
+        - listitem [ref=e49]:
+          - link "How does Rejuran Healer work" [ref=e50] [cursor=pointer]:
+            - /url: "#section2"
+        - listitem [ref=e51]:
+          - link "Benefits of Rejuran Healer" [ref=e52] [cursor=pointer]:
+            - /url: "#section3"
+        - listitem [ref=e53]:
+          - link "What problems does it treat" [ref=e54] [cursor=pointer]:
+            - /url: "#section4"
+        - listitem [ref=e55]:
+          - link "Procedure videos" [ref=e56] [cursor=pointer]:
+            - /url: "#section-videos"
+        - listitem [ref=e57]:
+          - link "Precautions of doing Rejuran Healer" [ref=e58] [cursor=pointer]:
+            - /url: "#section5"
+        - listitem [ref=e59]:
+          - link "Side effects of Rejuran Healer" [ref=e60] [cursor=pointer]:
+            - /url: "#section6"
+        - listitem [ref=e61]:
+          - link "Expected downtime for Rejuran Healer" [ref=e62] [cursor=pointer]:
+            - /url: "#section7"
+        - listitem [ref=e63]:
+          - link "How much does it costs" [ref=e64] [cursor=pointer]:
+            - /url: "#section8"
+        - listitem [ref=e65]:
+          - link "Where can I go for these treatments" [ref=e66] [cursor=pointer]:
+            - /url: "#section9"
+        - listitem [ref=e67]:
+          - link "Before & After" [ref=e68] [cursor=pointer]:
+            - /url: "#section10"
+      - link "Jump To ... " [ref=e70] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - text: Jump To ...
+        - generic [ref=e71]: 
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - heading "What is Rejuran Healer Treatment?" [level=2] [ref=e75]
+        - generic [ref=e76]:
+          - paragraph [ref=e77]:
+            - img "Rejuran Healer Treatment" [ref=e78]
+          - paragraph [ref=e79]: Premier Clinic is proud to introduce our latest skin rejuvenation and skin lightening treatment, known as Rejuran Healer. It is a skin booster injection designed to help with the healing of wounds as well as having an anti-inflammatory effect on your body.
+          - paragraph [ref=e80]: The DNA extract in Rejuran Healer is obtained from salmon which promotes significant improvement in skin elasticity, texture and hydration. Rejuran Healer treatment is design to reverses aging by repairing the skin at the cellular level, repairs damaged dermal cells and restore abnormal or aging cells.
+          - paragraph [ref=e81]:
+            - img "Rejuran Healer Treatment" [ref=e82]
+      - generic [ref=e83]:
+        - heading "How Does Rejuran Healer Treatment Work?" [level=2] [ref=e84]
+        - generic [ref=e85]:
+          - paragraph [ref=e86]: The Rejuran Healer skin booster injection is a filler treatment, which is formed by polynucleotides (PN). In a chain, the PN is simply known as DNA. Salmon DNA is used in the Rejuran Healer skin rejuvenation treatment due to its similarity with human DNA. According to researchers, it is compatible with the human body so there will not be an immune response or harmful side effects as a result of this skin booster injection. PDRN is the harvested component from salmon DNA which can help to rejuvenate the skin.
+          - paragraph [ref=e87]: A numbing cream or anaesthetic will be applied on your skin, after which your doctor will utilise a very fine needle to administer small doses of Rejuran Healer into your skin. The PN/PDRN will help to improve the metabolic activity in your skin cells, increasing the rate of regeneration of key components on your skin like collagen.
+          - paragraph [ref=e88]:
+            - img "Rejuran Healer Treatment" [ref=e89]
+            - img "Rejuran Healer Treatment" [ref=e90]
+          - paragraph [ref=e91]:
+            - img "Rejuran Healer Treatment" [ref=e92]
+      - generic [ref=e93]:
+        - heading "Benefits of Rejuran Healer Treatment" [level=2] [ref=e94]
+        - generic [ref=e95]:
+          - paragraph [ref=e96]: Aside from the beneficial effects outlined at the beginning of the article, Rejuran Healer can also help to treat problems such as saggy skin, large pores, dark eye circles, dull skin, stretch marks, and even scars caused by acne.
+          - paragraph [ref=e97]:
+            - strong [ref=e98]: "Rejuran Healer treatment has several beneficial effects on your skin, including:"
+          - list [ref=e99]:
+            - listitem [ref=e100]: Better elasticity
+            - listitem [ref=e101]: Improved texture and skin tone
+            - listitem [ref=e102]: Reduced wrinkles and fine lines
+            - listitem [ref=e103]: Improved thickness of skin and oil production
+            - listitem [ref=e104]: Improved hydration
+            - listitem [ref=e105]: Encourage wound healing
+            - listitem [ref=e106]: Minimise enlarged pores
+            - listitem [ref=e107]: Promotes firmness and smoother skin
+          - paragraph [ref=e108]:
+            - img "Glutathione Plus Vitamin E Supplement" [ref=e109]
+            - img "Crystal Tomato for Beautiful Skin Supplement" [ref=e110]
+      - generic [ref=e111]:
+        - heading "What Problems Does It Help?" [level=2] [ref=e112]
+        - generic [ref=e113]:
+          - heading "Aging / Dull Skin" [level=4] [ref=e114]:
+            - strong [ref=e115]: Aging / Dull Skin
+          - paragraph [ref=e116]: Aging is a process where the human body is developing while maintaining functions ability that enables wellbeing in older age. Skin features will changes either improve or worsen during aging. Commonly without proper care and routine, skin changes will trigger appearances of wrinkles, age spots, dryness and dull skin. Aging also will cause short in collagen and elastin production, which lead to damage and loose skin.
+          - paragraph [ref=e117]: Fair skin is a very desirable trait for many individuals and is much sought after, especially among Asians. Individuals may undergo this process for professional or personal reasons, but the desired outcome is the same – a fresh layer of skin in a lighter tone.
+          - paragraph [ref=e118]: As Rejuran skin booster injection helps the regeneration of replacement cells, the skin cells that take the place of the old ones are naturally fairer and healthier than the ones before. Skin will no longer be dry as it now retains moisture to remain well hydrated, ensuring your skin is vibrant and glowing. As a result, there will be a natural whitening effect which will be reflected in a fairer skin tone and achieving healthy youthful skin.
+          - paragraph [ref=e119]:
+            - img "Benefits of Celebre Placenta & Stem Cell" [ref=e120]
+          - paragraph [ref=e121]
+          - heading "Pores & Texture" [level=4] [ref=e122]:
+            - strong [ref=e123]: Pores & Texture
+          - paragraph [ref=e124]: Rejuran contains polynucleotide, which helps to stimulate skin regeneration and improve skin laxity. Large pores are products of skin that loses its flexibility, disabling the pores to return to its normal size. Polynucleotide will help the skin to restore its flexibility, which in turn help your pores to become smaller and your skin look more flawless!
+      - generic [ref=e125]:
+        - heading "Watch How the Procedure is Done" [level=2] [ref=e126]
+        - img "Play Video" [ref=e134] [cursor=pointer]
+      - generic [ref=e135]:
+        - heading "Precautions of Doing Rejuran Healer Treatment" [level=2] [ref=e136]
+        - generic [ref=e137]:
+          - paragraph [ref=e138]: There is the possibility of very mild side effects like skin redness or swelling, but this will not affect you negatively. In fact, you should be able to return to your daily activities and routine almost immediately after the skin rejuvenation treatment is complete.
+          - paragraph [ref=e139]:
+            - img "Rejuran Healer Treatment" [ref=e140]
+            - img "Rejuran Healer Treatment" [ref=e141]
+      - generic [ref=e142]:
+        - heading "Side Effects of Rejuran Healer Treatment" [level=2] [ref=e143]
+        - paragraph [ref=e145]: There are no known major side effects subject to both procedure and material use in Rejuran healer treatment. Adverse reaction to the material is extremely rare.
+      - generic [ref=e146]:
+        - heading "Expected downtime for Rejuran Healer treatment" [level=2] [ref=e147]
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: Downtime for Rejuran Healer is minimal where patients can return to their daily life after the treatment. Results should be visible within four weeks or so, as this is the time needed for the skin healing process to take place. Depending on your condition, it is suitable to schedule multiple sessions about three weeks apart, but this will be discussed with you prior to treatment. The lifting may be gradual and progressive.
+          - paragraph [ref=e150]:
+            - img "Rejuran Healer Treatment" [ref=e151]
+      - generic [ref=e152]:
+        - heading "How Much Does It Cost?" [level=2] [ref=e153]
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: Skin whitening treatment in Malaysia is also known as baby skin injections as it promotes skin natural healing, repair acne damage and regenerates skin cells from deep within. Rejuran Healer treatment is administered through the straightforward injectable procedure. It comes with a syringe which cost around RM 2,200 to Rm 4,000 for 1cc.
+          - paragraph [ref=e156]: The number of sessions needed as well as amount of injection requires may only be determined or diagnosed by the doctors. Here in Premier Clinic, the price for Rejuran Healer treatment is about RM 2,500/ syringe. Compare to the other types of treatment, Rejuran Healer provides a safe treatment with no permanent side effects.
+          - paragraph [ref=e157]:
+            - img "Rejuran Healer Treatment" [ref=e158]
+      - generic [ref=e159]:
+        - heading "Where Can I Go for These Treatments?" [level=2] [ref=e160]
+        - generic [ref=e161]:
+          - paragraph [ref=e162]: Any inquiries and concerns can be discussed with our team of highly experienced and friendly doctors, who will be more than happy to answer during the initial consultation session.
+          - paragraph [ref=e163]: "If you would like to schedule a consultation session to discuss more on REJURAN HEALER treatment in Malaysia or skin whitening injection in KL, do call us. Alternatively, you may come to any of our clinics in Bangsar, TTDI, Mont Kiara, Puchong and KL City to make an appointment. Please contact us for further information:"
+          - paragraph [ref=e164]:
+            - text: "Whatsapp:"
+            - link "https://wa.me/60126625552" [ref=e165] [cursor=pointer]:
+              - /url: https://wa.me/60126625552
+            - text: "Call: +6012-662-5552 (Malay/English)"
+            - text: "Call: +6012-773-2074 (Chinese speaking)"
+            - text: "Email:"
+            - link "contactus@premier-clinic.com" [ref=e166] [cursor=pointer]:
+              - /url: mailto:contactus@premier-clinic.com
+      - generic [ref=e167]:
+        - heading "Before & After Rejuran Healer Treatment" [level=2] [ref=e168]
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - img [ref=e174]
+            - img [ref=e176]
+            - tabpanel [ref=e177]:
+              - img "Before & After Rejuran Healer Treatment" [ref=e178]
+            - tabpanel [ref=e179]:
+              - img "Before & After Rejuran Healer Treatment" [ref=e180]
+            - tabpanel [ref=e181]:
+              - img [ref=e182]
+            - tabpanel [ref=e183]:
+              - img [ref=e184]
+            - tabpanel [ref=e185]:
+              - img [ref=e186]
+            - img [ref=e188]
+            - img [ref=e190]
+            - img [ref=e192]
+            - img [ref=e194]
+            - img [ref=e196]
+          - tablist [ref=e198]:
+            - tab "1 of 3" [selected] [ref=e199] [cursor=pointer]: "1"
+            - tab "2 of 3" [ref=e200] [cursor=pointer]: "2"
+            - tab "3 of 3" [ref=e201] [cursor=pointer]: "3"
+            - tab "4 of 3" [ref=e202] [cursor=pointer]: "4"
+            - tab "5 of 3" [ref=e203] [cursor=pointer]: "5"
+      - generic [ref=e204]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e205]
+        - generic [ref=e207] [cursor=pointer]:
+          - generic [ref=e208]: 
+          - generic [ref=e209]: 
+          - text: Is Rejuran Healer treatment painful?
+        - generic [ref=e211] [cursor=pointer]:
+          - generic [ref=e212]: 
+          - generic [ref=e213]: 
+          - text: Is Rejuran Healer treatment safe?
+        - generic [ref=e215] [cursor=pointer]:
+          - generic [ref=e216]: 
+          - generic [ref=e217]: 
+          - text: What condition can Rejuran Healer use for?
+      - list [ref=e220]:
+        - listitem [ref=e221]:
+          - link "Enquiry" [ref=e222] [cursor=pointer]:
+            - /url: https://premier-clinic.com/contact-us/
+        - listitem [ref=e223]:
+          - link "Find Our Clinic" [ref=e224] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-clinics/
+      - heading "Reference " [level=2] [ref=e226]:
+        - link "Reference " [ref=e227] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - text: Reference
+          - generic [ref=e228]: 
+  - link "Whatsapp" [ref=e229] [cursor=pointer]:
+    - /url: https://wa.me/60126625552?text=Hi,%20I%20was%20just%20browsing%20your%20website%20and%20I'm%20interested%20to%20learn%20more%20about%20your%20treatments.
+    - img "Whatsapp" [ref=e230]
+  - contentinfo [ref=e231]:
+    - generic [ref=e233]:
+      - complementary [ref=e235]:
+        - generic [ref=e237]:
+          - heading "About Us" [level=3] [ref=e238]:
+            - text: About Us
+            - link:
+              - /url: javascript:void(0)
+          - generic [ref=e239]:
+            - paragraph [ref=e240]:
+              - text: One of Malaysia’s leading aesthetic clinics, Premier Clinic believes that all individuals are beautiful and aims to bring your inner beauty to the surface. We strive to provide advanced care in the field of
+              - link "aesthetic medicine" [ref=e241] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+              - text: ", and to boost both the confidence and outlook of all our patients. Whether you need a simple service or a long,"
+              - link "complicated treatment" [ref=e242] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+              - text: ", our team of trained professionals will ensure you receive our"
+              - link "aesthetic care" [ref=e243] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services-full/
+              - text: with our array of available services.
+            - paragraph [ref=e244]:
+              - text: With branches in
+              - link "Bangsar Baru" [ref=e245] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/bangsar/
+              - text: ","
+              - link "Taman Tun Dr Ismail" [ref=e246] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/taman-tun-dr-ismail/
+              - text: ","
+              - link "Mont Kiara" [ref=e247] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/mont-kiara/
+              - text: and
+              - link "Puchong" [ref=e248] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/puchong/
+              - text: ", as well as in"
+              - link "KL City" [ref=e249] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/kl-city/
+              - text: ", we are strategically located to serve you."
+      - complementary [ref=e251]:
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - heading "Popular Treatments" [level=3] [ref=e254]:
+              - text: Popular Treatments
+              - link:
+                - /url: javascript:void(0)
+            - generic [ref=e255]:
+              - list [ref=e256]:
+                - listitem [ref=e257]:
+                  - link "Pico Laser" [ref=e258] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/pico-laser/
+                - listitem [ref=e259]:
+                  - link "Ultherapy" [ref=e260] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/ultherapy-focused-ultrasound/
+                - listitem [ref=e261]:
+                  - link "Clatuu Fat Freezing" [ref=e262] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/clatuu-fat-freezing/
+                - listitem [ref=e263]:
+                  - link "CoolSculpting Fat Freezing" [ref=e264] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/zeltiq-coolsculpting-cryolipolysis/
+                - listitem [ref=e265]:
+                  - link "Profhilo" [ref=e266] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/profhilo/
+                - listitem [ref=e267]:
+                  - link "ONDA" [ref=e268] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/onda-coolwaves/
+              - list [ref=e269]:
+                - listitem [ref=e270]:
+                  - link "Rejuran Healer" [ref=e271] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/rejuran-healer-treatment/
+                - listitem [ref=e272]:
+                  - link "Radiesse Filler" [ref=e273] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/radiesse-filler-injection/
+                - listitem [ref=e274]:
+                  - link "Chemical Peel" [ref=e275] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/skin-peel/
+                - listitem [ref=e276]:
+                  - link "Mesotherapy" [ref=e277] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/mesotherapy/
+                - listitem [ref=e278]:
+                  - link "Fractional CO2 Laser" [ref=e279] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/fractional-co2-laser/
+                - listitem [ref=e280]:
+                  - link "Platelet Rich Plasma (PRP)" [ref=e281] [cursor=pointer]:
+                    - /url: https://premier-clinic.com/our-services/platelet-rich-plasma-prp/
+          - img "Letter of Credentialing and Privileging Aesthetic Medical Practice" [ref=e282]
+      - generic [ref=e283]:
+        - complementary [ref=e284]:
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "All Treatments" [ref=e288] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-services/
+            - listitem [ref=e289]:
+              - link "Skin & Body Problems" [ref=e290] [cursor=pointer]:
+                - /url: https://premier-clinic.com/skin-and-body-problems/
+            - listitem [ref=e291]:
+              - link "Packages" [ref=e292] [cursor=pointer]:
+                - /url: https://premier-clinic.com/packages/
+            - listitem [ref=e293]:
+              - link "About Us" [ref=e294] [cursor=pointer]:
+                - /url: https://premier-clinic.com/about-us/
+            - listitem [ref=e295]:
+              - link "Our Awards" [ref=e296] [cursor=pointer]:
+                - /url: https://premier-clinic.com/about-us/our-awards/
+            - listitem [ref=e297]:
+              - link "Our Doctors" [ref=e298] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-doctors/
+            - listitem [ref=e299]:
+              - link "Our Clinics" [ref=e300] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-clinics/
+            - listitem [ref=e301]:
+              - link "FAQ" [ref=e302] [cursor=pointer]:
+                - /url: https://premier-clinic.com/faq/
+            - listitem [ref=e303]:
+              - link "Blog" [ref=e304] [cursor=pointer]:
+                - /url: https://premier-clinic.com/blog/
+            - listitem [ref=e305]:
+              - link "Our Pricing" [ref=e306] [cursor=pointer]:
+                - /url: https://premier-clinic.com/our-pricing/
+        - complementary [ref=e307]:
+          - generic [ref=e309]:
+            - heading "Connect With Us" [level=3] [ref=e310]
+            - list [ref=e312]:
+              - listitem [ref=e313]:
+                - link [ref=e314] [cursor=pointer]:
+                  - /url: https://www.facebook.com/premierclinicmy/
+                  - img [ref=e315]
+              - listitem [ref=e316]:
+                - link [ref=e317] [cursor=pointer]:
+                  - /url: https://www.instagram.com/premierclinic_my/
+                  - img [ref=e318]
+              - listitem [ref=e319]:
+                - link [ref=e320] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@premierclinickl
+                  - img [ref=e321]
+              - listitem [ref=e322]:
+                - link [ref=e323] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@Premierclinic_KL
+                  - img [ref=e324]
+      - generic [ref=e325]:
+        - complementary [ref=e326]:
+          - generic [ref=e328]:
+            - heading "Contact Us" [level=3] [ref=e329]:
+              - text: Contact Us
+              - link:
+                - /url: javascript:void(0)
+            - generic [ref=e330]:
+              - paragraph [ref=e331]: (Contactable 24 hours, 365 days)
+              - paragraph [ref=e332]:
+                - text: Call / WhatsApp / SMS Call us now!
+                - link "+6012 - 662 5552" [ref=e333] [cursor=pointer]:
+                  - /url: tel:+60126625552
+              - paragraph [ref=e334]:
+                - text: Email Us
+                - link "contactus@premier-clinic.com" [ref=e335] [cursor=pointer]:
+                  - /url: mailto:contactus@premier-clinic.com
+              - paragraph [ref=e336]: Premier Clinic is owned by Alunan Majujaya Sdn Bhd (1056972-X)
+              - paragraph [ref=e337]:
+                - text: "We Accept:"
+                - img "Payment Method" [ref=e338]
+              - paragraph [ref=e339]:
+                - link "Visit our BM website" [ref=e340] [cursor=pointer]:
+                  - /url: https://premier-clinic.com/bm/
+        - complementary [ref=e341]
+    - generic [ref=e344]:
+      - link "" [ref=e345] [cursor=pointer]:
+        - /url: ""
+        - generic [ref=e346]: 
+      - generic [ref=e347]:
+        - list [ref=e348]:
+          - listitem [ref=e349]:
+            - link "Terms & Conditions" [ref=e350] [cursor=pointer]:
+              - /url: https://premier-clinic.com/terms-conditions/
+          - listitem [ref=e351]:
+            - link "Privacy Policy" [ref=e352] [cursor=pointer]:
+              - /url: https://premier-clinic.com/privacy-policy/
+        - paragraph [ref=e353]:
+          - text: Copyright ©
+          - link "PREMIER CLINIC" [ref=e354] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services-full/
+          - text: . All rights reserved. KKLIU 2632 / EXP 31.12.2026
+      - list
+  - generic [ref=e355]:
+    - link "" [ref=e357] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e358]: 
+    - generic [ref=e360]:
+      - text: 
+      - link "" [ref=e361] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e362]: 
+    - navigation [ref=e364]:
+      - list [ref=e365]:
+        - listitem [ref=e366]:
+          - link "Home" [ref=e367] [cursor=pointer]:
+            - /url: https://premier-clinic.com/ms/
+        - listitem [ref=e368]:
+          - link "About Us" [ref=e369] [cursor=pointer]:
+            - /url: https://premier-clinic.com/about-us/
+          - generic [ref=e370] [cursor=pointer]: +
+        - listitem [ref=e371]:
+          - link "Our Clinics" [ref=e372] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-clinics/
+        - listitem [ref=e373]:
+          - link "Treatments" [ref=e374] [cursor=pointer]:
+            - /url: https://premier-clinic.com/our-services/
+        - listitem [ref=e375]:
+          - link "Testimonials" [ref=e376] [cursor=pointer]:
+            - /url: https://premier-clinic.com/testimonials/
+        - listitem [ref=e377]:
+          - link "Skin & Body Problems" [ref=e378] [cursor=pointer]:
+            - /url: https://premier-clinic.com/skin-and-body-problems/
+        - listitem [ref=e379]:
+          - link "Blog" [ref=e380] [cursor=pointer]:
+            - /url: https://premier-clinic.com/blog/
+        - listitem [ref=e381]:
+          - link "Offers" [ref=e382] [cursor=pointer]:
+            - /url: https://premier-clinic.com/packages/
+        - listitem [ref=e383]:
+          - link "Shop" [ref=e384] [cursor=pointer]:
+            - /url: https://premier-clinic.com/shop/
+        - listitem [ref=e385]:
+          - link "BOOK NOW" [ref=e386] [cursor=pointer]:
+            - /url: https://premier-clinic.com/contact-us/
+    - list

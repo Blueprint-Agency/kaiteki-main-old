@@ -48,7 +48,9 @@ This is a **YMYL / medical** site: health-content accuracy, E-E-A-T, and **Malay
 See **`docs/README.md`** for the full index. Phase status:
 
 - ✅ **Phase 1 (done):** `01-legacy-site-audit.md`, `02-seo-guidelines-2026.md`
-- ⏳ **Phase 2 (planned):** `03-competitor-analysis` · `04-information-architecture` · `05-content-strategy` · `06-uiux-design-system` · `07-technical-architecture`
+- 🔄 **Phase 2 (in progress):** ✅ `03-competitor-analysis` · ✅ `04-information-architecture` · ⏳ `05-content-strategy` · ⏳ `06-uiux-design-system` · ⏳ `07-technical-architecture`
+
+**Locked URL scheme (from `docs/04`):** clean/extensionless, non-www, `/treatments/[slug]` · `/concerns/[slug]` · `/locations/[branch-slug]` · `/doctors/[slug]` · `/blog/[slug]`; EN unprefixed at root, `/zh` reserved (locale-neutral slugs). Every legacy URL has a 301 (`docs/04` §9).
 
 **Before proposing structure, content, UX, or tech**, read `docs/02` (the SEO/AEO rules everything must satisfy) and `docs/01` (what we're migrating from).
 
