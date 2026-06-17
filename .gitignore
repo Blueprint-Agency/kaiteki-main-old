@@ -55,3 +55,6 @@ Thumbs.db
 .vercel
 .turbo
 .cache/
+
+# ── Tooling scratch (MCP page snapshots, etc.) ──
+.playwright-mcp/
