@@ -1,0 +1,130 @@
+/*
+Error: $color: null is not a color for `darken'
+        on line 10 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/components/_buttons.scss, in `button-variant'
+        from line 215 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/components/_buttons.scss
+        from line 12 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/_components.scss
+        from line 4 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/_core.scss
+        from line 2 of E:\Users\Jeffrey Low\Dropbox\Dropbox\WWWROOT\kaiteki.my\v2\assets\scss\style.scss
+
+5: 
+6: 
+7: 
+8: //////////////////////
+9: //
+10: // POSH STYLE
+11: //
+12: //////////////////////
+13: html{
+14:     overflow-x: hidden;
+15: }
+
+Backtrace:
+E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/components/_buttons.scss:10:in `button-variant'
+E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/components/_buttons.scss:215
+E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/_components.scss:12
+E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/_core.scss:4
+E:\Users\Jeffrey Low\Dropbox\Dropbox\WWWROOT\kaiteki.my\v2\assets\scss\style.scss:2
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/funcall.rb:315:in `reformat_argument_error'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/funcall.rb:162:in `rescue in _perform'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/funcall.rb:132:in `_perform'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:367:in `block (4 levels) in visit_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:367:in `map'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:367:in `block (3 levels) in visit_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:367:in `block (2 levels) in visit_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:86:in `perform_arguments'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:362:in `block in visit_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `block in with_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:98:in `with_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `map'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:23:in `load'
+E:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: $color: null is not a color for `darken'\A         on line 10 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/components/_buttons.scss, in `button-variant'\A         from line 215 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/components/_buttons.scss\A         from line 12 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/_components.scss\A         from line 4 of E:/Users/Jeffrey Low/Dropbox/Dropbox/WWWROOT/kaiteki.my/v2/assets/scss/_core.scss\A         from line 2 of E:\Users\Jeffrey Low\Dropbox\Dropbox\WWWROOT\kaiteki.my\v2\assets\scss\style.scss\A \A 5: \A 6: \A 7: \A 8: //////////////////////\A 9: //\A 10: // POSH STYLE\A 11: //\A 12: //////////////////////\A 13: html{\A 14:     overflow-x: hidden;\A 15: }"; }

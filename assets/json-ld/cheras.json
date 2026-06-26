@@ -1,0 +1,82 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "@id": "https://kaiteki.my/cheras.php",
+  "name": "Kaiteki Skin Aesthetic Clinic — Cheras, Kuala Lumpur",
+  "url": "https://kaiteki.my/cheras.php",
+  "telephone": "+60-11-2140-1688",
+  "description": "Kaiteki Skin Aesthetic Clinic Cheras provides professional aesthetic and skin care treatments including laser therapy, skin boosters, lifting treatments, and medical aesthetic services in Kuala Lumpur.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "G-11, Wisma Aman Elite, Jalan Desa Aman 1, Desa Aman",
+    "addressLocality": "Kuala Lumpur",
+    "addressRegion": "Federal Territory of Kuala Lumpur",
+    "postalCode": "56100",
+    "addressCountry": "MY"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 3.0952049296475117,
+    "longitude": 101.73960072698496
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday"],
+      "opens": "10:30",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/mykaiteki/",
+    "https://www.instagram.com/kaiteki.my/?hl=en",
+    "https://maps.app.goo.gl/o1ZjrDXVU63RpjbM7"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "174"
+  },
+  "hasMap": "https://maps.app.goo.gl/o1ZjrDXVU63RpjbM7",
+  "priceRange": "$$",
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "MedicalProcedure",
+        "name": "PQX Pico Laser Treatment",
+        "description": "Treat pigmentation, improve vascular conditions, manage acne and acne scars, and brighten skin."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "MedicalProcedure",
+        "name": "M22 Laser Treatment",
+        "description": "Smooth fine lines and wrinkles, treat broken capillaries, pigmentation, and reduce stretch marks."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "MedicalProcedure",
+        "name": "Skin Booster Treatment",
+        "description": "Hydrate and rejuvenate skin to improve texture, elasticity, and overall skin quality."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "MedicalProcedure",
+        "name": "Ultherapy / HIFU Treatment",
+        "description": "Skin lifting and tightening, wrinkle reduction, double chin reduction, and collagen stimulation."
+      }
+    }
+  ]
+}

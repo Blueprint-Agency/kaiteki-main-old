@@ -1,0 +1,14 @@
+# Block Googlebot from crawling internal test folder
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Allow all other bots full access
+User-agent: *
+Disallow:
+
+# Optional: throttle Bingbot crawl rate
+User-agent: bingbot
+Crawl-delay: 10
+
+# Sitemap for all bots
+Sitemap: https://www.kaiteki.my/sitemap.xml
