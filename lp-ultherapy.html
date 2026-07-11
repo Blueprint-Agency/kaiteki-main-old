@@ -102,6 +102,14 @@ header{
 .hero h1 em{font-style:italic;color:var(--bronze)}
 .hero .sub{font-size:1.16rem;color:var(--ink-soft);max-width:34ch;margin:22px 0 0}
 .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.cta-pulse{animation:ctaPulse 1.7s ease-in-out infinite}
+.cta-pulse:hover{animation-play-state:paused}
+@keyframes ctaPulse{
+  0%,100%{transform:scale(1);box-shadow:0 14px 30px -12px rgba(18,140,74,.7)}
+  50%{transform:scale(1.05);box-shadow:0 0 0 10px rgba(37,211,102,0),0 16px 40px -8px rgba(18,140,74,.95)}
+  70%{transform:scale(1.02)}
+}
+@media(prefers-reduced-motion:reduce){.cta-pulse{animation:none}}
 .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
 .chip{
   display:inline-flex;align-items:center;gap:8px;background:var(--cream);
@@ -227,6 +235,26 @@ header{
 .offer-points svg{width:22px;height:22px;color:var(--wa-deep);flex:none;margin-top:1px}
 .offer .btn-wa{margin-top:30px}
 .offer-fine{font-size:.84rem;color:var(--taupe);margin-top:14px;font-weight:500}
+/* animated demo cursor that moves in and "clicks" the CTA */
+.cta-demo{position:relative;display:inline-block}
+.cta-cursor{position:absolute;z-index:6;pointer-events:none;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35));left:100%;top:44%;opacity:0;animation:ctaCursor 3.4s ease-in-out infinite}
+.cta-ripple{position:absolute;z-index:5;left:82%;top:78%;width:14px;height:14px;border-radius:50%;border:2px solid #fff;transform:translate(-50%,-50%) scale(.3);opacity:0;pointer-events:none;animation:ctaRipple 3.4s ease-out infinite}
+@keyframes ctaCursor{
+  0%{left:100%;top:44%;transform:translate(14px,0) scale(1);opacity:0}
+  12%{opacity:1}
+  40%{left:82%;top:78%;transform:translate(0,0) scale(1);opacity:1}
+  48%{left:82%;top:78%;transform:translate(0,0) scale(.82)}
+  58%{left:82%;top:78%;transform:translate(0,0) scale(1)}
+  82%{left:82%;top:78%;opacity:1}
+  100%{left:100%;top:44%;transform:translate(14px,0) scale(1);opacity:0}
+}
+@keyframes ctaRipple{
+  0%,44%{opacity:0;transform:translate(-50%,-50%) scale(.3)}
+  49%{opacity:.75;transform:translate(-50%,-50%) scale(1)}
+  66%{opacity:0;transform:translate(-50%,-50%) scale(2.6)}
+  100%{opacity:0}
+}
+@media(prefers-reduced-motion:reduce){.cta-cursor,.cta-ripple{animation:none;display:none}}
 
 /* WhatsApp-style chat mockup */
 .offer-visual{display:flex;justify-content:center}
@@ -458,7 +486,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
   <div class="bar">
     <a href="index.html" aria-label="Kaiteki Clinic home"><img src="assets/images/logo-200px.png" alt="Kaiteki Skin &amp; Aesthetic Clinic"></a>
     <span class="head-trust">FDA-Cleared&nbsp;·&nbsp;MOH-Registered Doctors&nbsp;·&nbsp;9 Clinics Nationwide</span>
-    <a class="btn btn-wa" href="#book">Free Consultation</a>
+    <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi!%20I'd%20like%20a%20free%20Ultherapy%20consultation.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">Free Consultation</a>
   </div>
 </header>
 
@@ -470,7 +498,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       <h1>Lift and firm your skin, <em>without surgery</em> or downtime.</h1>
       <p class="sub">FDA-cleared Ultherapy uses focused ultrasound to boost your own collagen, deep under the skin. You get a natural lift that looks fresh, not overdone.</p>
       <div class="hero-cta">
-        <a class="btn btn-wa" href="#book">
+        <a class="btn btn-wa cta-pulse" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi!%20I'd%20like%20a%20free%20Ultherapy%20consultation.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
           Chat with our doctor now
         </a>
@@ -570,10 +598,14 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Honest advice. If Ultherapy will not help you, we will say so.</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Your photo stays private, seen only by our medical team.</li>
       </ul>
-      <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi%20Kaiteki!%20I'd%20like%20an%20honest%20opinion.%20Will%20Ultherapy%20help%20me%3F%20I'm%20sending%20a%20photo%20of%20my%20face." target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
-        Send my photo on WhatsApp
-      </a>
+      <span class="cta-demo">
+        <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi%20Kaiteki!%20I'd%20like%20an%20honest%20opinion.%20Will%20Ultherapy%20help%20me%3F%20I'm%20sending%20a%20photo%20of%20my%20face." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
+          Send my photo on WhatsApp
+        </a>
+        <span class="cta-ripple" aria-hidden="true"></span>
+        <svg class="cta-cursor" aria-hidden="true" viewBox="0 0 24 24" width="26" height="26"><path d="M5 3l14 8-6 1.5L10 19 5 3z" fill="#2c201a" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      </span>
       <p class="offer-fine">Takes 30 seconds · Reply usually within business hours</p>
     </div>
 
@@ -834,7 +866,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
         <h3>"Great results come from honest advice, not hard selling."</h3>
         <p>It's the promise our clients mention most. Come in for a free assessment and decide in your own time.</p>
       </div>
-      <a class="btn btn-solid" href="#book">Book your free assessment</a>
+      <a class="btn btn-solid" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi!%20I'd%20like%20a%20free%20Ultherapy%20assessment.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">Book your free assessment</a>
     </div>
   </div>
 </section>
@@ -868,26 +900,6 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       <details class="qa"><summary><button type="button">How many sessions will I need?<span class="plus"></span></button></summary><div class="ans"><p>For most patients, one session a year is enough to maintain a visible lift. Depending on your skin and goals, your doctor may suggest a follow-up or combining Ultherapy with other treatments.</p></div></details>
       <details class="qa"><summary><button type="button">How is Ultherapy different from HIFU?<span class="plus"></span></button></summary><div class="ans"><p>Both use focused ultrasound, but Ultherapy uses real-time imaging to see and reach the correct depth exactly, so it is more accurate and consistent. Ultherapy is also FDA-cleared for lifting.</p></div></details>
       <details class="qa"><summary><button type="button">Can I combine it with other treatments?<span class="plus"></span></button></summary><div class="ans"><p>Yes. Ultherapy works well with dermal fillers, skin boosters (like Profhilo or Rejuran), Pico Laser and radiofrequency for a full skin-rejuvenation plan. Your Kaiteki doctor will advise what is right for you.</p></div></details>
-    </div>
-  </div>
-</section>
-
-<!-- ================= LEAD FORM / BOOK ================= -->
-<section class="lead" id="book">
-  <div class="wrap lead-center reveal">
-    <span class="eyebrow center">Free consultation</span>
-    <h2>Your lift starts with a conversation.</h2>
-    <p class="lp">Talk to a certified Kaiteki doctor about your concerns at any of our branches in Malaysia. No obligation, no pressure.</p>
-    <ul class="lead-benefits">
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Personalised skin assessment with a doctor</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Honest advice, only what you really need</li>
-      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Clear pricing before anything begins</li>
-    </ul>
-    <div>
-      <a class="btn btn-wa lead-cta" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi!%20I'd%20like%20a%20free%20Ultherapy%20consultation.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
-        Chat with our doctor now
-      </a>
     </div>
   </div>
 </section>
@@ -1028,7 +1040,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
 <!-- sticky mobile CTA -->
 <div class="mcta">
   <a class="btn btn-ghost" href="tel:+60103818170">Call</a>
-  <a class="btn btn-wa" href="#book">Book free consultation</a>
+  <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi!%20I'd%20like%20a%20free%20Ultherapy%20consultation.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">Book free consultation</a>
 </div>
 
 <script>
