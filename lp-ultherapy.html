@@ -158,7 +158,6 @@ header{
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);
   mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
 .award-track{display:flex;width:max-content;animation:awardScroll 55s linear infinite}
-.award-marquee:hover .award-track{animation-play-state:paused}
 .award{flex:0 0 auto;width:148px;height:148px;margin-right:16px;background:var(--sand);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;place-items:center}
 .award img{width:100%;height:100%;object-fit:contain}
 @keyframes awardScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
@@ -205,24 +204,24 @@ header{
 .quiz-restart:hover{color:var(--bronze)}
 @media(max-width:560px){.opts.cols-2,.opts.cols-3{grid-template-columns:1fr}.quiz-q{font-size:1.3rem}}
 
-/* ---- doctors carousel ---- */
+/* ---- doctors manual slider ---- */
 .docs{background:var(--cream);overflow:hidden}
-.doc-marquee{margin-top:48px;overflow:hidden;
-  -webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);
-  mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
-.doc-track{display:flex;width:max-content;animation:docScroll 90s linear infinite}
-.doc-marquee:hover .doc-track{animation-play-state:paused}
-.doc-card{flex:0 0 auto;width:212px;margin-right:20px;background:var(--sand);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 12px 30px -20px rgba(60,38,22,.5)}
+.doc-slider{overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;cursor:grab;padding:4px 0}
+.doc-slider::-webkit-scrollbar{display:none}
+.doc-slider.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto}
+.doc-slider.dragging *{pointer-events:none}
+.doc-track{display:flex;width:max-content}
+.doc-card{flex:0 0 auto;width:212px;margin-right:20px;scroll-snap-align:start;background:var(--sand);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 12px 30px -20px rgba(60,38,22,.5)}
 .doc-photo{aspect-ratio:4/5;overflow:hidden;background:var(--sand-2)}
-.doc-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.doc-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;-webkit-user-drag:none;user-select:none}
 .doc-name{font-family:var(--display);font-size:1.16rem;padding:15px 17px 0;color:var(--ink)}
 .doc-cred{font-size:.78rem;color:var(--bronze);font-weight:600;letter-spacing:.02em;padding:3px 17px 16px}
-@keyframes docScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.doc-dots{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:22px}
+.doc-dot{width:8px;height:8px;padding:0;border:0;border-radius:50%;background:var(--line);cursor:pointer;transition:width .25s ease,background .25s ease}
+.doc-dot.active{width:24px;border-radius:5px;background:var(--bronze)}
+.doc-dot:focus-visible{outline:2px solid var(--bronze);outline-offset:2px}
 @media(max-width:560px){.doc-card{width:170px;margin-right:14px}}
-@media(prefers-reduced-motion:reduce){.doc-track{animation:none}.doc-marquee{overflow-x:auto}}
-.doc-rev .doc-track{animation-direction:reverse}
 .doc-strip-label{text-align:center;color:var(--taupe);font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin:44px 0 16px}
-.credentials .doc-marquee{margin-top:0}
 
 /* ---- honest-opinion selfie offer ---- */
 .offer{background:linear-gradient(155deg,var(--sand) 0%,#ecdccf 60%,#e7cebd 100%)}
@@ -499,7 +498,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
   <div class="wrap hero-grid">
     <div class="hero-copy reveal">
       <span class="eyebrow">Non-Surgical Face Lift · Malaysia</span>
-      <h1>Lift and firm your skin, <em>without surgery</em> or downtime.</h1>
+      <h1>Lift and firm up your skin, <em>without surgery</em> or downtime.</h1>
       <p class="sub">FDA-cleared Ultherapy uses focused ultrasound to boost your own collagen, deep under the skin. You get a natural lift that looks fresh, not overdone.</p>
       <div class="hero-cta">
         <a class="btn btn-wa cta-pulse" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi!%20I'd%20like%20a%20free%20Ultherapy%20consultation.%20Please%20let%20me%20know%20the%20available%20slots." target="_blank" rel="noopener">
@@ -515,8 +514,8 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
     </div>
     <div class="hero-visual reveal">
       <div class="ba-slider" id="baSlider">
-        <img class="ba-img" src="assets/images/ba_ulther_after.jpg?v=3" alt="After Ultherapy — firmer, more lifted skin at Kaiteki Clinic" width="1000" height="1250">
-        <div class="ba-before-wrap"><img class="ba-img" src="assets/images/ba_ulther_before.jpg?v=3" alt="Before Ultherapy — skin laxity along the jaw and cheeks" width="1000" height="1250"></div>
+        <img class="ba-img" src="assets/images/ba_ulther_after.jpg?v=5" alt="After Ultherapy — firmer, more lifted skin at Kaiteki Clinic" width="1000" height="1250">
+        <div class="ba-before-wrap"><img class="ba-img" src="assets/images/ba_ulther_before.jpg?v=4" alt="Before Ultherapy — skin laxity along the jaw and cheeks" width="1000" height="1250"></div>
         <span class="ba-tag ba-tag-before">Before</span>
         <span class="ba-tag ba-tag-after">After</span>
         <input class="ba-input" type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after Ultherapy">
@@ -559,7 +558,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       </div>
     </div>
     <p class="doc-strip-label">Cared for by 20 certified, KKM-registered doctors</p>
-    <div class="doc-marquee doc-rev reveal">
+    <div class="doc-slider reveal" id="docSlider">
       <div class="doc-track" id="docTrack">
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjessie2025.jpg" alt="Dr Jessie Lim" loading="lazy"></div><div class="doc-name">Dr Jessie Lim</div><div class="doc-cred">MD · LCP-certified</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drcalvintan2025.jpg" alt="Dr Calvin Tan" loading="lazy"></div><div class="doc-name">Dr Calvin Tan</div><div class="doc-cred">MD · MAC</div></div>
@@ -583,49 +582,93 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_dryvonnechuah.jpg" alt="Dr Yvonne Chuah" loading="lazy"></div><div class="doc-name">Dr Yvonne Chuah</div><div class="doc-cred">MD · LCP-certified</div></div>
       </div>
     </div>
+    <div class="doc-dots" id="docDots" role="tablist" aria-label="Doctor gallery pages"></div>
   </div>
 </section>
 
-<!-- ================= HONEST OPINION / SELFIE OFFER ================= -->
-<section class="offer" id="honest">
-  <div class="wrap offer-grid">
-    <div class="offer-copy reveal">
-      <span class="eyebrow">Free · no obligation</span>
-      <h2>Not sure if it will help you? <em>Ask first.</em></h2>
-      <p>Don't guess, and don't sit through a sales pitch. Send a photo of your face on WhatsApp, and one of our KKM-registered doctors will give you an honest opinion on what would help, what wouldn't, and whether you even need Ultherapy at all.</p>
-      <ul class="offer-points">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>A real doctor reviews your photo, not a salesperson.</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Honest advice. If Ultherapy will not help you, we will say so.</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>Your photo stays private, seen only by our medical team.</li>
-      </ul>
-      <span class="cta-demo">
-        <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=60103818170&text=Hi%20Kaiteki!%20I'd%20like%20an%20honest%20opinion.%20Will%20Ultherapy%20help%20me%3F%20I'm%20sending%20a%20photo%20of%20my%20face." target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
-          Send my photo on WhatsApp
-        </a>
-        <span class="cta-ripple" aria-hidden="true"></span>
-        <svg class="cta-cursor" aria-hidden="true" viewBox="0 0 24 24" width="26" height="26"><path d="M5 3l14 8-6 1.5L10 19 5 3z" fill="#2c201a" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
-      </span>
-      <p class="offer-fine">Takes 30 seconds · Reply usually within business hours</p>
+<!-- ================= QUICK ASSESSMENT ================= -->
+<section class="assess" id="assessment">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow center">2-minute self-check</span>
+      <h2>Is Ultherapy right for you?</h2>
+      <p>Answer 4 quick questions to get a personalised recommendation. No email needed.</p>
     </div>
 
-    <div class="offer-visual reveal">
-      <div class="phone" role="img" aria-label="Example WhatsApp chat: a patient sends a photo and a Kaiteki doctor replies with honest advice.">
-        <div class="phone-top">
-          <span class="pa"><img src="assets/images/logo-200px.png" alt=""></span>
-          <div>
-            <div class="pn">Kaiteki Clinic</div>
-            <div class="ps">online</div>
-          </div>
+    <div class="quiz reveal" id="quiz">
+      <div class="quiz-bar"><span id="quizFill"></span></div>
+
+      <!-- Step 1: gender -->
+      <div class="quiz-step" data-key="gender">
+        <h3 class="quiz-q">First, who are we assessing?</h3>
+        <p class="quiz-hint">This helps our doctors tailor your recommendation.</p>
+        <div class="opts cols-3">
+          <button class="opt" type="button" data-val="Female">Female</button>
+          <button class="opt" type="button" data-val="Male">Male</button>
+          <button class="opt" type="button" data-val="Prefer not to say">Prefer not to say</button>
         </div>
-        <div class="phone-body">
-          <div class="bubble out photo"><img src="assets/images/main_feature_face.jpg" alt="Photo a patient sent"><span class="t">10:24 ✓✓</span></div>
-          <div class="bubble out">Hi doctor, will Ultherapy help my jawline? 🙏<span class="t">10:24 ✓✓</span></div>
-          <div class="bubble in">Thanks for the photo! I can see some mild sagging along the jaw and under the chin.<span class="t">10:26</span></div>
-          <div class="bubble in">Ultherapy would lift and firm this area nicely. Honestly, 1 session is enough to start, no need for a package 😊<span class="t">10:26</span></div>
-          <div class="bubble in">Want to come in for a free in-person check?<span class="t">10:27</span></div>
+        <div class="quiz-nav"><button class="quiz-back" type="button" hidden>← Back</button></div>
+      </div>
+
+      <!-- Step 2: age -->
+      <div class="quiz-step" data-key="age">
+        <h3 class="quiz-q">What's your age range?</h3>
+        <p class="quiz-hint">Collagen drops as we get older, so your age helps guide the plan.</p>
+        <div class="opts cols-2">
+          <button class="opt" type="button" data-val="Under 30">Under 30</button>
+          <button class="opt" type="button" data-val="30–39">30–39</button>
+          <button class="opt" type="button" data-val="40–49">40–49</button>
+          <button class="opt" type="button" data-val="50 & above">50 &amp; above</button>
+        </div>
+        <div class="quiz-nav"><button class="quiz-back" type="button">← Back</button></div>
+      </div>
+
+      <!-- Step 3: skin conditions (multi) -->
+      <div class="quiz-step" data-key="conditions" data-multi="1">
+        <h3 class="quiz-q">Which concerns do you notice?</h3>
+        <p class="quiz-hint">Select all that apply.</p>
+        <div class="opts multi">
+          <button class="opt" type="button" data-val="Sagging jawline & jowls"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Sagging jawline &amp; jowls</button>
+          <button class="opt" type="button" data-val="Loose or crepey neck"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Loose or crepey neck skin</button>
+          <button class="opt" type="button" data-val="Double chin"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Double chin / under-chin fullness</button>
+          <button class="opt" type="button" data-val="Sagging cheeks"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Sagging or flattening cheeks</button>
+          <button class="opt" type="button" data-val="Fine lines & wrinkles"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Fine lines &amp; wrinkles</button>
+          <button class="opt" type="button" data-val="Drooping brows / eye area"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Heavy brows / tired-looking eyes</button>
+          <button class="opt" type="button" data-val="Just exploring / prevention"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Nothing yet, just looking around</button>
+        </div>
+        <div class="quiz-nav">
+          <button class="quiz-back" type="button">← Back</button>
+          <button class="btn btn-solid quiz-next" type="button" disabled>Continue</button>
         </div>
       </div>
+
+      <!-- Step 4: sun / lifestyle -->
+      <div class="quiz-step" data-key="lifestyle">
+        <h3 class="quiz-q">How much sun or outdoor exposure do you get?</h3>
+        <p class="quiz-hint">Sun exposure speeds up collagen loss, so this affects your plan.</p>
+        <div class="opts cols-3">
+          <button class="opt" type="button" data-val="Mostly indoors">Mostly indoors</button>
+          <button class="opt" type="button" data-val="A moderate amount">A moderate amount</button>
+          <button class="opt" type="button" data-val="Frequently outdoors">Frequently outdoors</button>
+        </div>
+        <div class="quiz-nav"><button class="quiz-back" type="button">← Back</button></div>
+      </div>
+
+      <!-- Step 5: result -->
+      <div class="quiz-step quiz-result">
+        <div class="ricon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
+        <h3 id="rHead">You're likely a great candidate for Ultherapy</h3>
+        <p id="rMsg"></p>
+        <div class="quiz-summary" id="rSummary"></div>
+        <div>
+          <a class="btn btn-wa" id="rWa" href="https://api.whatsapp.com/send?phone=60103818170" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
+            Get my recommendation on WhatsApp
+          </a>
+        </div>
+        <button class="quiz-restart" type="button">↺ Start over</button>
+      </div>
+
     </div>
   </div>
 </section>
@@ -750,93 +793,6 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
   </div>
 </section>
 
-<!-- ================= QUICK ASSESSMENT ================= -->
-<section class="assess" id="assessment">
-  <div class="wrap">
-    <div class="sec-head center reveal">
-      <span class="eyebrow center">2-minute self-check</span>
-      <h2>Is Ultherapy right for you?</h2>
-      <p>Answer 4 quick questions to get a personalised recommendation. No email needed.</p>
-    </div>
-
-    <div class="quiz reveal" id="quiz">
-      <div class="quiz-bar"><span id="quizFill"></span></div>
-
-      <!-- Step 1: gender -->
-      <div class="quiz-step" data-key="gender">
-        <h3 class="quiz-q">First, who are we assessing?</h3>
-        <p class="quiz-hint">This helps our doctors tailor your recommendation.</p>
-        <div class="opts cols-3">
-          <button class="opt" type="button" data-val="Female">Female</button>
-          <button class="opt" type="button" data-val="Male">Male</button>
-          <button class="opt" type="button" data-val="Prefer not to say">Prefer not to say</button>
-        </div>
-        <div class="quiz-nav"><button class="quiz-back" type="button" hidden>← Back</button></div>
-      </div>
-
-      <!-- Step 2: age -->
-      <div class="quiz-step" data-key="age">
-        <h3 class="quiz-q">What's your age range?</h3>
-        <p class="quiz-hint">Collagen drops as we get older, so your age helps guide the plan.</p>
-        <div class="opts cols-2">
-          <button class="opt" type="button" data-val="Under 30">Under 30</button>
-          <button class="opt" type="button" data-val="30–39">30–39</button>
-          <button class="opt" type="button" data-val="40–49">40–49</button>
-          <button class="opt" type="button" data-val="50 & above">50 &amp; above</button>
-        </div>
-        <div class="quiz-nav"><button class="quiz-back" type="button">← Back</button></div>
-      </div>
-
-      <!-- Step 3: skin conditions (multi) -->
-      <div class="quiz-step" data-key="conditions" data-multi="1">
-        <h3 class="quiz-q">Which concerns do you notice?</h3>
-        <p class="quiz-hint">Select all that apply.</p>
-        <div class="opts multi">
-          <button class="opt" type="button" data-val="Sagging jawline & jowls"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Sagging jawline &amp; jowls</button>
-          <button class="opt" type="button" data-val="Loose or crepey neck"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Loose or crepey neck skin</button>
-          <button class="opt" type="button" data-val="Double chin"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Double chin / under-chin fullness</button>
-          <button class="opt" type="button" data-val="Sagging cheeks"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Sagging or flattening cheeks</button>
-          <button class="opt" type="button" data-val="Fine lines & wrinkles"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Fine lines &amp; wrinkles</button>
-          <button class="opt" type="button" data-val="Drooping brows / eye area"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Heavy brows / tired-looking eyes</button>
-          <button class="opt" type="button" data-val="Just exploring / prevention"><span class="chk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>Nothing yet, just looking around</button>
-        </div>
-        <div class="quiz-nav">
-          <button class="quiz-back" type="button">← Back</button>
-          <button class="btn btn-solid quiz-next" type="button" disabled>Continue</button>
-        </div>
-      </div>
-
-      <!-- Step 4: sun / lifestyle -->
-      <div class="quiz-step" data-key="lifestyle">
-        <h3 class="quiz-q">How much sun or outdoor exposure do you get?</h3>
-        <p class="quiz-hint">Sun exposure speeds up collagen loss, so this affects your plan.</p>
-        <div class="opts cols-3">
-          <button class="opt" type="button" data-val="Mostly indoors">Mostly indoors</button>
-          <button class="opt" type="button" data-val="A moderate amount">A moderate amount</button>
-          <button class="opt" type="button" data-val="Frequently outdoors">Frequently outdoors</button>
-        </div>
-        <div class="quiz-nav"><button class="quiz-back" type="button">← Back</button></div>
-      </div>
-
-      <!-- Step 5: result -->
-      <div class="quiz-step quiz-result">
-        <div class="ricon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg></div>
-        <h3 id="rHead">You're likely a great candidate for Ultherapy</h3>
-        <p id="rMsg"></p>
-        <div class="quiz-summary" id="rSummary"></div>
-        <div>
-          <a class="btn btn-wa" id="rWa" href="https://api.whatsapp.com/send?phone=60103818170" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.3 14c-.2.6-1.3 1.2-1.8 1.2s-1.2.2-3.9-.9a9.4 9.4 0 0 1-3.9-3.4c-.3-.5-1-1.4-1-2.7 0-1.2.7-1.8 1-2 .2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.2.2-.4.4-.2.7.2.4.9 1.4 1.9 2.2 1.2 1.1 2.2 1.4 2.5 1.5.3.2.5.1.7-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.4.1.2.1.9-.1 1.5Z"/></svg>
-            Get my recommendation on WhatsApp
-          </a>
-        </div>
-        <button class="quiz-restart" type="button">↺ Start over</button>
-      </div>
-
-    </div>
-  </div>
-</section>
-
 <!-- ================= WHY KAITEKI ================= -->
 <section class="why">
   <div class="wrap">
@@ -917,10 +873,24 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       <div class="rtitle">Klang Valley</div>
       <div class="loc-grid">
         <div class="loc">
+          <div class="cover"><img src="assets/images/contactus-petalingjaya.jpg" alt="Kaiteki Clinic Petaling Jaya (The Hub SS2)" loading="lazy"></div>
+          <div class="body">
+            <h3>Petaling Jaya (SS2)</h3><div class="area">Selangor</div>
+            <address>B-1-03, The Hub SS2, 19 Sentral, Jalan Harapan, Seksyen 19, 46300 Petaling Jaya, Selangor</address>
+          </div>
+        </div>
+        <div class="loc">
           <div class="cover"><img src="assets/images/contactus-bukitjalil.jpg" alt="Kaiteki Clinic Bukit Jalil" loading="lazy"></div>
           <div class="body">
             <h3>Bukit Jalil</h3><div class="area">Kuala Lumpur</div>
             <address>C-5-G, Jalil Link 2, No. 5, Jalan Jalil Perkasa 1, Bukit Jalil, 57000 Kuala Lumpur</address>
+          </div>
+        </div>
+        <div class="loc">
+          <div class="cover"><img src="assets/images/contactus-kotakemuning.jpg" alt="Kaiteki Clinic Kota Kemuning, Shah Alam" loading="lazy"></div>
+          <div class="body">
+            <h3>Kota Kemuning</h3><div class="area">Shah Alam, Selangor</div>
+            <address>6-1, 8 Jalan Anggerik Vanilla BE31/BE, Kota Kemuning, Seksyen 31, 40460 Shah Alam, Selangor</address>
           </div>
         </div>
         <div class="loc">
@@ -931,13 +901,6 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
           </div>
         </div>
         <div class="loc">
-          <div class="cover"><img src="assets/images/contactus-cheras.jpg" alt="Kaiteki Clinic Cheras" loading="lazy"></div>
-          <div class="body">
-            <h3>Cheras</h3><div class="area">Kuala Lumpur</div>
-            <address>G-11, Wisma Aman Elite, Jalan Desa Aman 1, Desa Aman, 56100 Kuala Lumpur</address>
-          </div>
-        </div>
-        <div class="loc">
           <div class="cover"><img src="assets/images/contactus-fourseasons-kl.jpg" alt="Kaiteki Clinic Shoppes at Four Seasons, Kuala Lumpur" loading="lazy"></div>
           <div class="body">
             <h3>Shoppes @ Four Seasons</h3><div class="area">Kuala Lumpur</div>
@@ -945,17 +908,10 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
           </div>
         </div>
         <div class="loc">
-          <div class="cover"><img src="assets/images/contactus-petalingjaya.jpg" alt="Kaiteki Clinic Petaling Jaya" loading="lazy"></div>
+          <div class="cover"><img src="assets/images/contactus-cheras.jpg" alt="Kaiteki Clinic Cheras" loading="lazy"></div>
           <div class="body">
-            <h3>Petaling Jaya</h3><div class="area">Selangor</div>
-            <address>B-1-03, The Hub SS2, 19 Sentral, Jalan Harapan, Seksyen 19, 46300 Petaling Jaya, Selangor</address>
-          </div>
-        </div>
-        <div class="loc">
-          <div class="cover"><img src="assets/images/contactus-kotakemuning.jpg" alt="Kaiteki Clinic Shah Alam, Kota Kemuning" loading="lazy"></div>
-          <div class="body">
-            <h3>Shah Alam</h3><div class="area">Kota Kemuning, Selangor</div>
-            <address>6-1, 8 Jalan Anggerik Vanilla BE31/BE, Kota Kemuning, Seksyen 31, 40460 Shah Alam, Selangor</address>
+            <h3>Cheras</h3><div class="area">Kuala Lumpur</div>
+            <address>G-11, Wisma Aman Elite, Jalan Desa Aman 1, Desa Aman, 56100 Kuala Lumpur</address>
           </div>
         </div>
       </div>
@@ -1111,13 +1067,79 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
   show(0);
 })();
 
-// marquees: duplicate items once for a seamless infinite scroll
+// awards marquee: duplicate items once for a seamless infinite scroll
 (function(){
-  [['awardTrack','Awards and accreditations'],['docTrack','Our doctors']].forEach(function(p){
-    var t=document.getElementById(p[0]); if(!t) return;
-    t.setAttribute('aria-label',p[1]);
-    t.insertAdjacentHTML('beforeend', t.innerHTML);
+  var t=document.getElementById('awardTrack'); if(!t) return;
+  t.setAttribute('aria-label','Awards and accreditations');
+  t.insertAdjacentHTML('beforeend', t.innerHTML);
+})();
+
+// doctors: manual swipe/drag slider with pagination dots
+(function(){
+  var s=document.getElementById('docSlider'), dots=document.getElementById('docDots');
+  if(!s||!dots) return;
+  var pages=1, active=-1;
+
+  function pageWidth(){ return s.clientWidth; }
+  function pageCount(){ return Math.max(1, Math.ceil((s.scrollWidth - 2) / pageWidth())); }
+
+  function buildDots(){
+    var n=pageCount();
+    if(n===pages && dots.childElementCount===n) return;
+    pages=n; dots.innerHTML='';
+    if(n<=1){ dots.style.display='none'; return; }
+    dots.style.display='flex';
+    for(var i=0;i<n;i++){
+      var b=document.createElement('button');
+      b.className='doc-dot'; b.type='button';
+      b.setAttribute('aria-label','Go to doctors page '+(i+1));
+      (function(idx){ b.addEventListener('click',function(){
+        s.scrollTo({left:idx*pageWidth(), behavior:'smooth'});
+      });})(i);
+      dots.appendChild(b);
+    }
+    active=-1; updateActive();
+  }
+  function updateActive(){
+    var i=Math.round(s.scrollLeft / pageWidth());
+    i=Math.max(0, Math.min(pages-1, i));
+    if(i===active) return;
+    active=i;
+    [].forEach.call(dots.children,function(d,idx){ d.classList.toggle('active', idx===i); });
+  }
+
+  var raf;
+  s.addEventListener('scroll',function(){
+    if(raf) return;
+    raf=requestAnimationFrame(function(){ raf=null; updateActive(); });
+  },{passive:true});
+
+  var ro=('ResizeObserver' in window)? new ResizeObserver(buildDots):null;
+  if(ro) ro.observe(s); else window.addEventListener('resize',buildDots);
+
+  // pointer drag-to-scroll (desktop); touch scrolls natively
+  var down=false, startX=0, startLeft=0, moved=false;
+  s.addEventListener('pointerdown',function(e){
+    if(e.pointerType==='touch') return;      // let native touch scroll handle it
+    down=true; moved=false; startX=e.clientX; startLeft=s.scrollLeft;
+    s.classList.add('dragging');
   });
+  window.addEventListener('pointermove',function(e){
+    if(!down) return;
+    var dx=e.clientX-startX;
+    if(Math.abs(dx)>4) moved=true;
+    s.scrollLeft=startLeft-dx;
+  });
+  window.addEventListener('pointerup',function(){
+    if(!down) return;
+    down=false; s.classList.remove('dragging');
+    // snap to nearest page after a free drag
+    s.scrollTo({left:Math.round(s.scrollLeft/pageWidth())*pageWidth(), behavior:'smooth'});
+  });
+  s.addEventListener('click',function(e){ if(moved){ e.preventDefault(); } },true);
+  s.addEventListener('dragstart',function(e){ e.preventDefault(); });
+
+  buildDots();
 })();
 
 // before/after hero slider
