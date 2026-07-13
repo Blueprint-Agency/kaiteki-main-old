@@ -125,7 +125,7 @@ header{
 .hero-photo img{width:100%;height:100%;object-fit:cover}
 
 /* before/after comparison slider */
-.ba-slider{--pos:50%;position:relative;aspect-ratio:4/5;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);background:var(--sand-2);user-select:none;touch-action:pan-y}
+.ba-slider{--pos:50%;position:relative;aspect-ratio:1000/1017;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);background:var(--sand-2);user-select:none;touch-action:pan-y}
 .ba-slider .ba-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;display:block;pointer-events:none}
 .ba-before-wrap{position:absolute;inset:0;clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
 .ba-tag{position:absolute;top:16px;z-index:3;pointer-events:none;font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(44,32,25,.6);backdrop-filter:blur(4px);padding:6px 13px;border-radius:999px}
@@ -137,6 +137,26 @@ header{
 .ba-input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;z-index:5}
 .ba-input:focus-visible ~ .ba-handle .ba-grip{outline:3px solid var(--bronze);outline-offset:3px}
 .ba-note{text-align:center;font-size:.76rem;color:var(--taupe);margin-top:12px;letter-spacing:.02em}
+
+/* hero swipe gallery */
+.hero-gal{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);background:var(--sand-2)}
+.hero-gal-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;cursor:grab}
+.hero-gal-track::-webkit-scrollbar{display:none}
+.hero-gal-track.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto}
+.hero-slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:1/1}
+.hero-slide img{width:100%;height:100%;object-fit:cover;display:block;-webkit-user-drag:none;user-select:none}
+.hero-gal-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:rgba(251,247,241,.92);backdrop-filter:blur(4px);color:var(--ink);cursor:pointer;display:grid;place-items:center;box-shadow:0 6px 16px -6px rgba(44,32,25,.5);transition:background .15s,transform .15s}
+.hero-gal-arrow:hover{background:#fff;color:var(--bronze)}
+.hero-gal-arrow:active{transform:translateY(-50%) scale(.94)}
+.hero-gal-arrow svg{width:20px;height:20px}
+.hero-gal-arrow.prev{left:12px}
+.hero-gal-arrow.next{right:12px}
+.hero-gal-arrow[hidden]{display:none}
+.hero-gal-dots{display:flex;justify-content:center;gap:8px;margin-top:16px}
+.hero-gal-dots button{width:8px;height:8px;padding:0;border:0;border-radius:50%;background:var(--line);cursor:pointer;transition:width .25s ease,background .25s ease}
+.hero-gal-dots button.active{width:24px;border-radius:5px;background:var(--bronze)}
+.hero-gal-dots button:focus-visible{outline:2px solid var(--bronze);outline-offset:2px}
+@media(hover:none){.hero-gal-arrow{display:none}}
 @media(prefers-reduced-motion:no-preference){.ba-grip{animation:baHint 3.4s ease-in-out 1s 2}}
 @keyframes baHint{0%,100%{transform:translate(-50%,-50%)}25%{transform:translate(calc(-50% - 8px),-50%)}75%{transform:translate(calc(-50% + 8px),-50%)}}
 
@@ -513,17 +533,17 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       </div>
     </div>
     <div class="hero-visual reveal">
-      <div class="ba-slider" id="baSlider">
-        <img class="ba-img" src="assets/images/ba_ulther_after.jpg?v=6" alt="After Ultherapy — firmer, more lifted skin at Kaiteki Clinic" width="1000" height="1250">
-        <div class="ba-before-wrap"><img class="ba-img" src="assets/images/ba_ulther_before.jpg?v=4" alt="Before Ultherapy — skin laxity along the jaw and cheeks" width="1000" height="1250"></div>
-        <span class="ba-tag ba-tag-before">Before</span>
-        <span class="ba-tag ba-tag-after">After</span>
-        <input class="ba-input" type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after Ultherapy">
-        <div class="ba-handle" aria-hidden="true">
-          <div class="ba-grip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 7-5 5 5 5M15 7l5 5-5 5"/></svg></div>
+      <div class="hero-gal" id="heroGal">
+        <div class="hero-gal-track" id="heroGalTrack">
+          <div class="hero-slide"><img src="assets/images/ba_facelifting_01.jpg" alt="Before and after face lifting result at Kaiteki Clinic" width="1080" height="1080"></div>
+          <div class="hero-slide"><img src="assets/images/ba_facelifting_02.jpg" alt="Before and after neck and jawline lifting result" loading="lazy" width="1080" height="1080"></div>
+          <div class="hero-slide"><img src="assets/images/ba_facelifting_03.jpg" alt="Before and after facial lifting and firming result" loading="lazy" width="1080" height="1080"></div>
         </div>
+        <button class="hero-gal-arrow prev" type="button" aria-label="Previous result"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg></button>
+        <button class="hero-gal-arrow next" type="button" aria-label="Next result"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button>
       </div>
-      <p class="ba-note">Drag to compare · real Kaiteki client, results vary</p>
+      <div class="hero-gal-dots" id="heroGalDots" role="tablist" aria-label="Result gallery"></div>
+      <p class="ba-note">Swipe to see more · real Kaiteki clients, results vary</p>
     </div>
   </div>
 </section>
@@ -565,21 +585,21 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_dryeongbin2025.jpg" alt="Dr Yeong Bin" loading="lazy"></div><div class="doc-name">Dr Yeong Bin</div><div class="doc-cred">MBBS · LCP-certified</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drwilliam2025.jpg" alt="Dr William Yap" loading="lazy"></div><div class="doc-name">Dr William Yap</div><div class="doc-cred">MD · LCP-certified</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drxiaochien2025.jpg" alt="Dr Lim Xiao Chien" loading="lazy"></div><div class="doc-name">Dr Lim Xiao Chien</div><div class="doc-cred">MBBS · LCP-certified</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjeremy2025.jpg" alt="Dr Jeremy Low" loading="lazy"></div><div class="doc-name">Dr Jeremy Low</div><div class="doc-cred">MBBS · MAC</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drchangcs3.jpg" alt="Dr Chang Chee Seong" loading="lazy"></div><div class="doc-name">Dr Chang Chee Seong</div><div class="doc-cred">MD</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drcalvintan2025.jpg" alt="Dr Calvin Tan" loading="lazy"></div><div class="doc-name">Dr Calvin Tan</div><div class="doc-cred">MD · MAC</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drChinWeiHorng.jpg" alt="Dr Chin Wei Horng" loading="lazy"></div><div class="doc-name">Dr Chin Wei Horng</div><div class="doc-cred">MD</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drchloewan.jpg" alt="Dr Chloe Wan" loading="lazy"></div><div class="doc-name">Dr Chloe Wan</div><div class="doc-cred">MBBS · MAC</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjeremy2025.jpg" alt="Dr Jeremy Low" loading="lazy"></div><div class="doc-name">Dr Jeremy Low</div><div class="doc-cred">MBBS · LCP-certified</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drChinWeiHorng.jpg" alt="Dr Chin Wei Horng" loading="lazy"></div><div class="doc-name">Dr Chin Wei Horng</div><div class="doc-cred">MD · LCP-certified</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjacqueline2025.jpg" alt="Dr Jacqueline Tan" loading="lazy"></div><div class="doc-name">Dr Jacqueline Tan</div><div class="doc-cred">MBBS · LCP-certified</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjade2025.jpg" alt="Dr Jade" loading="lazy"></div><div class="doc-name">Dr Jade</div><div class="doc-cred">MBBS · LCP-certified</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjoaan2025.jpg" alt="Dr Joaan Kong" loading="lazy"></div><div class="doc-name">Dr Joaan Kong</div><div class="doc-cred">MBBS · LCP-certified</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drtim2025.jpg" alt="Dr Tim Chua" loading="lazy"></div><div class="doc-name">Dr Tim Chua</div><div class="doc-cred">MBBS · LCP-certified</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_dryvonnechuah.jpg" alt="Dr Yvonne Chuah" loading="lazy"></div><div class="doc-name">Dr Yvonne Chuah</div><div class="doc-cred">MD · LCP-certified</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drchangcs3.jpg" alt="Dr Chang Chee Seong" loading="lazy"></div><div class="doc-name">Dr Chang Chee Seong</div><div class="doc-cred">MD</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drcalvintan2025.jpg" alt="Dr Calvin Tan" loading="lazy"></div><div class="doc-name">Dr Calvin Tan</div><div class="doc-cred">MD · MAC</div></div>
+        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drchloewan.jpg" alt="Dr Chloe Wan" loading="lazy"></div><div class="doc-name">Dr Chloe Wan</div><div class="doc-cred">MBBS · MAC</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drJamieGan.jpg" alt="Dr Jamie Gan" loading="lazy"></div><div class="doc-name">Dr Jamie Gan</div><div class="doc-cred">MD</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drJenMeng.jpg" alt="Dr Jen Meng" loading="lazy"></div><div class="doc-name">Dr Jen Meng</div><div class="doc-cred">MBBS · MAC</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drjoaan2025.jpg" alt="Dr Joaan Kong" loading="lazy"></div><div class="doc-name">Dr Joaan Kong</div><div class="doc-cred">MBBS · LCP-certified</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drlucaschew2025.jpg" alt="Dr Lucas Chew" loading="lazy"></div><div class="doc-name">Dr Lucas Chew</div><div class="doc-cred">MBBS</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drsayweixian.jpg" alt="Dr Say Wei Xian" loading="lazy"></div><div class="doc-name">Dr Say Wei Xian</div><div class="doc-cred">MBBS · MAC</div></div>
         <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drteresa2025.jpg" alt="Dr Teresa Tan" loading="lazy"></div><div class="doc-name">Dr Teresa Tan</div><div class="doc-cred">MD · MAC</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_drtim2025.jpg" alt="Dr Tim Chua" loading="lazy"></div><div class="doc-name">Dr Tim Chua</div><div class="doc-cred">MBBS · LCP-certified</div></div>
-        <div class="doc-card"><div class="doc-photo"><img src="assets/images/portrait/bio_dryvonnechuah.jpg" alt="Dr Yvonne Chuah" loading="lazy"></div><div class="doc-name">Dr Yvonne Chuah</div><div class="doc-cred">MD · LCP-certified</div></div>
       </div>
     </div>
     <div class="doc-dots" id="docDots" role="tablist" aria-label="Doctor gallery pages"></div>
@@ -1142,13 +1162,40 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
   buildDots();
 })();
 
-// before/after hero slider
+// hero swipe gallery
 (function(){
-  var s=document.getElementById('baSlider'); if(!s) return;
-  var inp=s.querySelector('.ba-input');
-  function set(v){ s.style.setProperty('--pos', v+'%'); }
-  inp.addEventListener('input',function(){ set(inp.value); });
-  set(inp.value);
+  var track=document.getElementById('heroGalTrack'), dots=document.getElementById('heroGalDots'), gal=document.getElementById('heroGal');
+  if(!track||!dots||!gal) return;
+  var slides=track.children.length;
+  var prev=gal.querySelector('.hero-gal-arrow.prev'), next=gal.querySelector('.hero-gal-arrow.next');
+  var active=-1;
+  function pw(){ return track.clientWidth; }
+  for(var i=0;i<slides;i++){
+    var b=document.createElement('button'); b.type='button';
+    b.setAttribute('aria-label','Go to result '+(i+1));
+    (function(idx){ b.addEventListener('click',function(){ track.scrollTo({left:idx*pw(),behavior:'smooth'}); }); })(i);
+    dots.appendChild(b);
+  }
+  function update(){
+    var i=Math.round(track.scrollLeft/pw());
+    i=Math.max(0,Math.min(slides-1,i));
+    if(i!==active){ active=i; [].forEach.call(dots.children,function(d,idx){d.classList.toggle('active',idx===i);}); }
+    if(prev) prev.hidden = track.scrollLeft < 5;
+    if(next) next.hidden = track.scrollLeft > track.scrollWidth - pw() - 5;
+  }
+  var raf;
+  track.addEventListener('scroll',function(){ if(raf) return; raf=requestAnimationFrame(function(){raf=null;update();}); },{passive:true});
+  if(prev) prev.addEventListener('click',function(){ track.scrollBy({left:-pw(),behavior:'smooth'}); });
+  if(next) next.addEventListener('click',function(){ track.scrollBy({left:pw(),behavior:'smooth'}); });
+  window.addEventListener('resize',update);
+  // pointer drag (desktop); touch swipes natively
+  var down=false,sx=0,sl=0,moved=false;
+  track.addEventListener('pointerdown',function(e){ if(e.pointerType==='touch') return; down=true;moved=false;sx=e.clientX;sl=track.scrollLeft;track.classList.add('dragging'); });
+  window.addEventListener('pointermove',function(e){ if(!down) return; var dx=e.clientX-sx; if(Math.abs(dx)>4) moved=true; track.scrollLeft=sl-dx; });
+  window.addEventListener('pointerup',function(){ if(!down) return; down=false; track.classList.remove('dragging'); track.scrollTo({left:Math.round(track.scrollLeft/pw())*pw(),behavior:'smooth'}); });
+  track.addEventListener('click',function(e){ if(moved) e.preventDefault(); },true);
+  track.addEventListener('dragstart',function(e){ e.preventDefault(); });
+  update();
 })();
 
 // scroll reveal
