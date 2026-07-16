@@ -1091,7 +1091,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       +"Sun exposure: "+enc(answers.lifestyle||'-')+"%0A%0A"
       +"Could you tell me if Ultherapy is right for me?";
     document.getElementById('rWa').href="https://api.whatsapp.com/send?phone=60103818170&text="+text;
-    if(window.gtag){try{gtag('event','generate_lead',{method:'assessment'});gtag('event','conversion',{send_to:'AW-18324544474/_an5CJfcjtEcENq36aFE'});}catch(e){}}
+    if(window.gtag){try{gtag('event','generate_lead',{method:'assessment'});}catch(e){}}
   }
   show(0);
 })();
@@ -1251,6 +1251,11 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
     window.open("https://api.whatsapp.com/send?phone=60103818170&text="+msg,"_blank");
   });
 })();
+// Fire Ads conversion on any WhatsApp CTA click (delegated: covers every current + future link)
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href*="whatsapp"],a[href*="wa.me"]');
+  if(a&&window.gtag){try{gtag('event','conversion',{send_to:'AW-18324544474/_an5CJfcjtEcENq36aFE'});}catch(_){}}
+},true);
 </script>
 </body>
 </html>
