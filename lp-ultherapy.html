@@ -1091,7 +1091,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       +"Sun exposure: "+enc(answers.lifestyle||'-')+"%0A%0A"
       +"Could you tell me if Ultherapy is right for me?";
     document.getElementById('rWa').href="https://api.whatsapp.com/send?phone=60103818170&text="+text;
-    if(window.gtag){try{gtag('event','generate_lead',{method:'assessment'});}catch(e){}}
+    if(window.gtag){try{gtag('event','generate_lead',{method:'assessment'});gtag('event','conversion',{send_to:'AW-18324544474/_an5CJfcjtEcENq36aFE'});}catch(e){}}
   }
   show(0);
 })();
@@ -1247,7 +1247,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       +"Name: "+encodeURIComponent(name)+"%0A"
       +"Phone: "+encodeURIComponent(phone)+"%0A"
       +"Preferred branch: "+encodeURIComponent(branch);
-    if(window.gtag){try{gtag('event','generate_lead',{method:'whatsapp_form'});}catch(_){}}
+    if(window.gtag){try{gtag('event','generate_lead',{method:'whatsapp_form'});gtag('event','conversion',{send_to:'AW-18324544474/_an5CJfcjtEcENq36aFE'});}catch(_){}}
     window.open("https://api.whatsapp.com/send?phone=60103818170&text="+msg,"_blank");
   });
 })();
