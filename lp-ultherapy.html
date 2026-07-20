@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M42CTGL');</script>
+<!-- End Google Tag Manager -->
 <title>Ultherapy Malaysia | Non-Surgical Face Lift | Kaiteki Clinic</title>
 <meta name="description" content="Lift and firm sagging skin without surgery or downtime. FDA-cleared Ultherapy at Kaiteki Clinic, performed by MOH-registered doctors across Malaysia. Book a free consultation.">
 <link rel="canonical" href="https://kaiteki.my/lp-ultherapy.html">
@@ -503,6 +510,10 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M42CTGL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- ================= HEADER ================= -->
 <header>
@@ -1082,7 +1093,7 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       +"Sun exposure: "+enc(answers.lifestyle||'-')+"%0A%0A"
       +"Could you tell me if Ultherapy is right for me?";
     document.getElementById('rWa').href="https://api.whatsapp.com/send?phone=60103818170&text="+text;
-    if(window.gtag){try{gtag('event','generate_lead',{method:'assessment'});}catch(e){}}
+    window.dataLayer=window.dataLayer||[];dataLayer.push({event:'assessment_complete'});
   }
   show(0);
 })();
@@ -1238,15 +1249,10 @@ footer img.flogo{height:34px;margin-bottom:16px;filter:brightness(0) invert(1);o
       +"Name: "+encodeURIComponent(name)+"%0A"
       +"Phone: "+encodeURIComponent(phone)+"%0A"
       +"Preferred branch: "+encodeURIComponent(branch);
-    if(window.gtag){try{gtag('event','generate_lead',{method:'whatsapp_form'});gtag('event','conversion',{send_to:'AW-18324544474/_an5CJfcjtEcENq36aFE'});}catch(_){}}
+    window.dataLayer=window.dataLayer||[];dataLayer.push({event:'whatsapp_cta'});
     window.open("https://api.whatsapp.com/send?phone=60103818170&text="+msg,"_blank");
   });
 })();
-// Fire Ads conversion on any WhatsApp CTA click (delegated: covers every current + future link)
-document.addEventListener('click',function(e){
-  var a=e.target.closest&&e.target.closest('a[href*="whatsapp"],a[href*="wa.me"]');
-  if(a&&window.gtag){try{gtag('event','conversion',{send_to:'AW-18324544474/_an5CJfcjtEcENq36aFE'});}catch(_){}}
-},true);
 </script>
 </body>
 </html>
