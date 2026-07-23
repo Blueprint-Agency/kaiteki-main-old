@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-MY">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -8,8 +10,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M42CTGL');</script>
 <!-- End Google Tag Manager -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ultherapy Malaysia | Non-Surgical Face Lift | Kaiteki Clinic</title>
 <meta name="description" content="Lift and firm sagging skin without surgery or downtime. FDA-cleared Ultherapy at Kaiteki Clinic, performed by MOH-registered doctors across Malaysia. Book a free consultation.">
 <link rel="canonical" href="https://kaiteki.my/lp-ultherapy.html">
@@ -1257,18 +1257,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     window.dataLayer=window.dataLayer||[];dataLayer.push({event:'whatsapp_cta'});
     window.open("https://api.whatsapp.com/send?phone=60103818170&text="+msg,"_blank");
   });
-})();
-
-// WhatsApp CTA click tracking -> dataLayer (GTM fires GA4 event + Google Ads conversion)
-(function(){
-  window.dataLayer=window.dataLayer||[];
-  document.addEventListener('click',function(e){
-    var a=e.target.closest?e.target.closest('a[href*="api.whatsapp.com"]'):null;
-    if(!a) return;
-    var sec=a.closest('section,header,footer'), loc='other';
-    if(sec){ loc = sec.tagName==='HEADER'?'header' : sec.tagName==='FOOTER'?'footer' : (sec.className.split(' ')[0]||'section'); }
-    window.dataLayer.push({event:'generate_lead',method:'whatsapp',cta_location:loc});
-  },true);
 })();
 </script>
 </body>
