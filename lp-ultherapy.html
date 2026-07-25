@@ -1236,27 +1236,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
   });
 })();
-// lead form -> WhatsApp (works with no backend; wire to CRM/PHPMailer later)
-(function(){
-  var f=document.getElementById('leadform');
-  if(!f) return;
-  f.addEventListener('submit',function(e){
-    e.preventDefault();
-    var name=(f.name.value||'').trim();
-    var phone=(f.phone.value||'').trim();
-    var branch=f.branch.value||'Not sure yet';
-    if(!name||!phone){
-      (!name?f.querySelector('#name'):f.querySelector('#phone')).focus();
-      return;
-    }
-    var msg="Hi Kaiteki! I'd like a FREE Ultherapy consultation.%0A%0A"
-      +"Name: "+encodeURIComponent(name)+"%0A"
-      +"Phone: "+encodeURIComponent(phone)+"%0A"
-      +"Preferred branch: "+encodeURIComponent(branch);
-    window.dataLayer=window.dataLayer||[];dataLayer.push({event:'whatsapp_cta'});
-    window.open("https://api.whatsapp.com/send?phone=60103818170&text="+msg,"_blank");
-  });
-})();
 </script>
 </body>
 </html>
